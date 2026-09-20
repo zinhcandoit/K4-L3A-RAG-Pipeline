@@ -16,7 +16,7 @@ def visible_files(directory: Path, extensions: set[str]) -> list[Path]:
 
 
 def test_corpus_has_required_legal_documents():
-    files = visible_files(DATA / "landing" / "legal", {".pdf", ".doc", ".docx", ".md"})
+    files = visible_files(DATA / "landing" / "legal", {".pdf", ".doc", ".docx"})
     assert len(files) >= 3, "Collect at least 3 legal/policy documents"
     assert all(path.stat().st_size > 1024 for path in files)
 

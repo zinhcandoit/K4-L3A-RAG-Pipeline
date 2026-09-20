@@ -27,10 +27,8 @@ ARTICLE_URLS = [
     "https://baochinhphu.vn/ke-hoach-trien-khai-thi-hanh-luat-giao-dich-dien-tu-102231013205019682.htm",
     # Luật Doanh nghiệp
     "https://baochinhphu.vn/chu-tich-kiem-tong-giam-doc-co-duoc-lam-nguoi-dai-dien-theo-phap-luat-10226052207284733.htm",
-    # Luật Thuế giá trị gia tăng
-    "https://baochinhphu.vn/giam-thue-gia-tri-gia-tang-tu-01-7-2025-den-het-31-12-2026-10225070118590677.htm",
-    # Luật Chứng khoán
-    "https://tapchitaichinh.vn/hoan-thien-hon-nua-khung-phap-ly-cho-nha-dau-tu-nuoc-ngoai-tren-thi-truong-chung-khoan.html",
+    "https://baochinhphu.vn/tao-can-cu-phap-ly-de-trien-khai-cac-quy-dinh-cua-luat-giao-dich-dien-tu-102240216153251886.htm",
+    "https://thuehaiquan.tapchikinhtetaichinh.vn/luat-thuong-mai-dien-tu-thiet-lap-chuan-muc-moi-cho-thi-truong-online-142525.html"
 ]
 
 

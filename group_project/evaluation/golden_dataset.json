@@ -1,82 +1,122 @@
 [
   {
-    "question": "Theo Khoản 2 Điều 156 Luật Doanh nghiệp năm 2020, những đối tượng nào không được kiêm Giám đốc hoặc Tổng Giám đốc?",
-    "expected_answer": "Chủ tịch Hội đồng quản trị công ty đại chúng và công ty cổ phần do Nhà nước nắm giữ trên 50% vốn điều lệ hoặc tổng số cổ phần có quyền biểu quyết (quy định tại điểm b khoản 1 Điều 88) không được kiêm Giám đốc hoặc Tổng Giám đốc.",
-    "expected_context": "Khoản 2 Điều 156 Luật Doanh nghiệp năm 2020 quy định: 'Chủ tịch Hội đồng quản trị công ty đại chúng và công ty cổ phần quy định tại điểm b khoản 1 Điều 88 của Luật này không được kiêm Giám đốc hoặc Tổng Giám đốc'."
+    "question": "Hoạt động thương mại điện tử được định nghĩa như thế nào theo Luật Thương mại điện tử số 122/2025/QH15?",
+    "expected_answer": "Hoạt động thương mại điện tử là hoạt động thương mại được tiến hành một phần hoặc toàn bộ trên môi trường điện tử.",
+    "expected_context": "Hoạt động thương mại điện tử là hoạt động thương mại được tiến hành một phần hoặc toàn bộ trên môi trường điện tử.",
+    "type": "definition"
   },
   {
-    "question": "Theo đề xuất dự thảo Nghị định sửa đổi Nghị định 320/2025/NĐ-CP, doanh nghiệp mua hàng hóa của cá nhân tại địa bàn khó khăn có giá trị từng lần từ bao nhiêu tiền trở lên thì không bắt buộc phải có chứng từ thanh toán không dùng tiền mặt để được tính vào chi phí được trừ?",
-    "expected_answer": "Trường hợp doanh nghiệp mua của cá nhân, hộ gia đình có giá trị thanh toán từng lần từ 05 triệu đồng trở lên cư trú tại địa bàn khó khăn, đặc biệt khó khăn thì lập bảng kê và không cần phải có chứng từ thanh toán không dùng tiền mặt.",
-    "expected_context": "trường hợp doanh nghiệp mua của cá nhân, hộ gia đình có giá trị thanh toán từng lần từ 05 triệu đồng trở lên mà cá nhân, hộ gia đình cư trú tại địa bàn có điều kiện kinh tế - xã hội đặc biệt khó khăn, khó khăn thì để tính vào chi phí được trừ khoản chi này, doanh nghiệp không cần phải có chứng từ thanh toán không dùng tiền mặt."
+    "question": "Nền tảng thương mại điện tử trung gian là gì theo Luật số 122/2025/QH15?",
+    "expected_answer": "Nền tảng thương mại điện tử trung gian là nền tảng thương mại điện tử cho phép tổ chức, cá nhân khác đăng ký tài khoản để thực hiện hoạt động giới thiệu, bán hàng hóa hoặc cung ứng dịch vụ trên chính nền tảng đó.",
+    "expected_context": "Nền tảng thương mại điện tử trung gian là nền tảng thương mại điện tử cho phép tổ chức, cá nhân khác đăng ký tài khoản để thực hiện hoạt động giới thiệu, bán hàng hóa hoặc cung ứng dịch vụ trên chính nền tảng đó.",
+    "type": "definition"
   },
   {
-    "question": "Trung tâm nghiên cứu và phát triển công nghệ chiến lược được đề xuất áp dụng thuế suất thuế thu nhập doanh nghiệp bao nhiêu phần trăm và thời gian miễn giảm như thế nào?",
-    "expected_answer": "Được áp dụng thuế suất 10% trong 25 năm, miễn thuế 4 năm và giảm 50% số thuế TNDN phải nộp trong 9 năm tiếp theo.",
-    "expected_context": "Trung tâm nghiên cứu và phát triển công nghệ chiến lược, doanh nghiệp công nghệ chiến lược, Trung tâm nghiên cứu và phát triển công nghệ cao, doanh nghiệp công nghệ cao nhóm 1 theo quy định của pháp luật về công nghệ cao được áp dụng thuế suất 10% trong 25 năm, miễn thuế 4 năm và giảm 50% số thuế TNDN phải nộp trong 9 năm tiếp theo"
+    "question": "Thuế suất thuế thu nhập doanh nghiệp phổ thông là bao nhiêu phần trăm theo Luật Thuế TNDN số 67/2025/QH15?",
+    "expected_answer": "Thuế suất thuế thu nhập doanh nghiệp phổ thông là 20%, trừ trường hợp doanh nghiệp có doanh thu thấp hoặc thuộc đối tượng được ưu đãi thuế suất.",
+    "expected_context": "Thuế suất thuế thu nhập doanh nghiệp là 20%, trừ trường hợp quy định tại các khoản 2, 3 và 4 Điều này và đối tượng được ưu đãi về thuế suất quy định tại Điều 13 của Luật này.",
+    "type": "factual"
   },
   {
-    "question": "Nghị định số 96/2026/NĐ-CP ngày 31/3/2026 của Chính phủ quy định chi tiết và hướng dẫn thi hành luật nào và thay thế nghị định nào?",
-    "expected_answer": "Nghị định số 96/2026/NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Luật Đầu tư, thay thế Nghị định số 31/2021/NĐ-CP.",
-    "expected_context": "Nghị định số 96/2026/NĐ-CP ngày 31/3/2026 quy định chi tiết và hướng dẫn thi hành một số điều của Luật Đầu tư (Nghị định này thay thế Nghị định số 31/2021/NĐ-CP)"
+    "question": "Doanh nghiệp có tổng doanh thu năm không quá 3 tỷ đồng được áp dụng mức thuế suất TNDN bao nhiêu?",
+    "expected_answer": "Doanh nghiệp có tổng doanh thu năm không quá 03 tỷ đồng được áp dụng thuế suất thuế thu nhập doanh nghiệp 15%.",
+    "expected_context": "Thuế suất 15% áp dụng đối với doanh nghiệp có tổng doanh thu năm không quá 03 tỷ đồng.",
+    "type": "factual"
   },
   {
-    "question": "Quyết định số 1198/QĐ-TTg của Thủ tướng Chính phủ ban hành kế hoạch nhằm triển khai thi hành văn bản luật nào?",
-    "expected_answer": "Quyết định số 1198/QĐ-TTg ban hành Kế hoạch triển khai thi hành Luật Giao dịch điện tử.",
-    "expected_context": "Phó Thủ tướng Chính phủ Trần Hồng Hà ký Quyết định số 1198/QĐ-TTg ban hành Kế hoạch triển khai thi hành Luật Giao dịch điện tử."
+    "question": "Mức thuế suất 0% thuế giá trị gia tăng áp dụng cho loại hàng hóa nào theo Luật Thuế GTGT số 48/2024/QH15?",
+    "expected_answer": "Mức thuế suất 0% áp dụng cho hàng hóa xuất khẩu (bao gồm hàng hóa từ Việt Nam bán cho tổ chức, cá nhân ở nước ngoài và được tiêu dùng ở ngoài Việt Nam), dịch vụ xuất khẩu, vận tải quốc tế và một số hàng hóa, dịch vụ xuất khẩu khác.",
+    "expected_context": "Mức thuế suất 0% áp dụng đối với hàng hóa, dịch vụ sau đây: a) Hàng hóa xuất khẩu bao gồm: hàng hóa từ Việt Nam bán cho tổ chức, cá nhân ở nước ngoài và được tiêu dùng ở ngoài Việt Nam",
+    "type": "factual"
   },
   {
-    "question": "Chủ tịch Hội đồng quản trị của công ty cổ phần tư nhân không phải công ty đại chúng có được đồng thời làm Tổng giám đốc không?",
-    "expected_answer": "Được phép. Khoản 2 Điều 156 Luật Doanh nghiệp cho phép đối với công ty cổ phần không có vốn Nhà nước, không phải là công ty đại chúng thì Chủ tịch Hội đồng quản trị được kiêm nhiệm Tổng Giám đốc.",
-    "expected_context": "khoản 2 Điều 156 Luật Doanh nghiệp cho phép đối với công ty cổ phần không có vốn Nhà nước, không phải là công ty đại chúng thì Chủ tịch Hội đồng quản trị được kiêm nhiệm Tổng Giám đốc."
+    "question": "Công ty cổ phần theo Luật Doanh nghiệp 2020 yêu cầu số lượng cổ đông tối thiểu và tối đa là bao nhiêu?",
+    "expected_answer": "Công ty cổ phần yêu cầu số lượng cổ đông tối thiểu là 03 và không hạn chế số lượng tối đa.",
+    "expected_context": "Cổ đông có thể là tổ chức, cá nhân; số lượng cổ đông tối thiểu là 03 và không hạn chế số lượng tối đa",
+    "type": "factual"
   },
   {
-    "question": "Thông điệp dữ liệu điện tử có được công nhận giá trị pháp lý tương đương văn bản giấy truyền thống không?",
-    "expected_answer": "Có. Thông tin trong thông điệp dữ liệu không bị phủ nhận giá trị pháp lý chỉ vì thể hiện dưới dạng dữ liệu điện tử, và được coi là đáp ứng yêu cầu bằng văn bản nếu có thể truy cập và sử dụng được để tham chiếu khi cần thiết.",
-    "expected_context": "Thông tin trong thông điệp dữ liệu không bị phủ nhận giá trị pháp lý chỉ vì thông tin đó được thể hiện dưới dạng thông điệp dữ liệu. Trường hợp pháp luật yêu cầu thông tin phải được thể hiện bằng văn bản thì thông điệp dữ liệu được coi là đáp ứng yêu cầu này nếu thông tin chứa trong thông điệp dữ liệu đó có thể truy cập và sử dụng được để tham chiếu khi cần thiết."
+    "question": "Chữ ký điện tử chuyên dùng bảo đảm an toàn hoặc chữ ký số có giá trị pháp lý tương đương với gì theo Luật Giao dịch điện tử?",
+    "expected_answer": "Chữ ký điện tử chuyên dùng bảo đảm an toàn hoặc chữ ký số có giá trị pháp lý tương đương chữ ký của cá nhân đó trong văn bản giấy.",
+    "expected_context": "Chữ ký điện tử chuyên dùng bảo đảm an toàn hoặc chữ ký số có giá trị pháp lý tương đương chữ ký của cá nhân đó trong văn bản giấy.",
+    "type": "factual"
   },
   {
-    "question": "Công ty trách nhiệm hữu hạn và công ty cổ phần có thể có nhiều hơn một người đại diện theo pháp luật không?",
-    "expected_answer": "Có thể. Công ty TNHH và công ty cổ phần có thể có một hoặc nhiều người đại diện theo pháp luật. Điều lệ công ty quy định cụ thể số lượng, chức danh quản lý và quyền, nghĩa vụ của từng người.",
-    "expected_context": "Công ty trách nhiệm hữu hạn và công ty cổ phần có thể có một hoặc nhiều người đại diện theo pháp luật. Điều lệ công ty quy định cụ thể số lượng, chức danh quản lý và quyền, nghĩa vụ của người đại diện theo pháp luật của doanh nghiệp."
+    "question": "Chủ tịch Hội đồng quản trị công ty đại chúng có được kiêm Giám đốc hoặc Tổng Giám đốc không?",
+    "expected_answer": "Không. Theo khoản 2 Điều 156 Luật Doanh nghiệp năm 2020, Chủ tịch Hội đồng quản trị công ty đại chúng và công ty cổ phần có vốn Nhà nước không được kiêm Giám đốc hoặc Tổng Giám đốc.",
+    "expected_context": "Chủ tịch Hội đồng quản trị công ty đại chúng và công ty cổ phần quy định tại điểm b khoản 1 Điều 88 của Luật này không được kiêm Giám đốc hoặc Tổng Giám đốc",
+    "type": "yes_no"
   },
   {
-    "question": "Mục đích của việc Bộ Tài chính đề xuất không áp dụng điều kiện thanh toán không dùng tiền mặt tại địa bàn có điều kiện kinh tế - xã hội đặc biệt khó khăn là gì?",
-    "expected_answer": "Nhằm kịp thời tháo gỡ khó khăn cho người dân, doanh nghiệp tại các địa bàn khó khăn, đặc biệt khó khăn và góp phần thực hiện mục tiêu tăng trưởng kinh tế hai con số.",
-    "expected_context": "để tháo gỡ khó khăn cho người dân, doanh nghiệp tại các địa bàn có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn, góp phần thực hiện mục tiêu tăng trưởng hai con số, Bộ Tài chính đề xuất sửa đổi quy định tại khoản 1 Điều 9 Nghị định số 320/2025/NĐ-CP theo hướng không áp dụng quy định về thanh toán không dùng tiền mặt"
+    "question": "Công ty TNHH và công ty cổ phần có thể có nhiều hơn một người đại diện theo pháp luật không?",
+    "expected_answer": "Có. Công ty trách nhiệm hữu hạn và công ty cổ phần có thể có một hoặc nhiều người đại diện theo pháp luật. Điều lệ công ty quy định cụ thể số lượng, chức danh quản lý và quyền, nghĩa vụ của từng người.",
+    "expected_context": "Công ty trách nhiệm hữu hạn và công ty cổ phần có thể có một hoặc nhiều người đại diện theo pháp luật. Điều lệ công ty quy định cụ thể số lượng, chức danh quản lý và quyền, nghĩa vụ của người đại diện theo pháp luật của doanh nghiệp.",
+    "type": "yes_no"
   },
   {
-    "question": "Chữ ký điện tử phải đáp ứng những điều kiện an toàn nào theo quy định pháp luật?",
-    "expected_answer": "Chữ ký điện tử an toàn khi dữ liệu tạo chữ ký chỉ gắn duy nhất với người ký trong bối cảnh sử dụng, chỉ thuộc sự kiểm soát của người ký tại thời điểm ký, và mọi thay đổi đối với chữ ký sau thời điểm ký đều có thể bị phát hiện.",
-    "expected_context": "Chữ ký điện tử được coi là bảo đảm an toàn nếu đáp ứng các điều kiện: Dữ liệu tạo chữ ký điện tử chỉ gắn duy nhất với người ký trong bối cảnh dữ liệu đó được sử dụng; Dữ liệu tạo chữ ký điện tử chỉ thuộc sự kiểm soát của người ký tại thời điểm ký; Mọi thay đổi đối với chữ ký điện tử sau thời điểm ký đều có thể bị phát hiện"
+    "question": "Thông điệp dữ liệu có được coi là đáp ứng yêu cầu về văn bản theo Luật Giao dịch điện tử không?",
+    "expected_answer": "Có. Trường hợp pháp luật yêu cầu thông tin phải được thể hiện bằng văn bản, thì thông điệp dữ liệu được xem là đáp ứng yêu cầu nếu thông tin trong thông điệp dữ liệu đó có thể truy cập và sử dụng được để tham chiếu.",
+    "expected_context": "Trường hợp pháp luật yêu cầu thông tin phải được thể hiện bằng văn bản thì thông điệp dữ liệu được xem là đáp ứng yêu cầu nếu thông tin trong thông điệp dữ liệu đó có thể truy cập và sử dụng được để tham chiếu.",
+    "type": "yes_no"
   },
   {
-    "question": "Trường hợp công ty cổ phần có hơn một người đại diện theo pháp luật mà Điều lệ chưa quy định cụ thể thì những ai đương nhiên là người đại diện theo pháp luật?",
-    "expected_answer": "Chủ tịch Hội đồng quản trị và Giám đốc hoặc Tổng Giám đốc đương nhiên là người đại diện theo pháp luật của công ty.",
-    "expected_context": "Trường hợp công ty có hơn một người đại diện theo pháp luật thì Chủ tịch Hội đồng quản trị và Giám đốc hoặc Tổng Giám đốc đương nhiên là người đại diện theo pháp luật của công ty."
+    "question": "Doanh nghiệp nước ngoài kinh doanh thương mại điện tử tại Việt Nam có phải nộp thuế thu nhập doanh nghiệp không?",
+    "expected_answer": "Có. Theo Luật Thuế TNDN số 67/2025/QH15, doanh nghiệp nước ngoài không có cơ sở thường trú tại Việt Nam, bao gồm cả các doanh nghiệp kinh doanh thương mại điện tử, kinh doanh dựa trên nền tảng số, phải nộp thuế đối với thu nhập chịu thuế phát sinh tại Việt Nam.",
+    "expected_context": "Doanh nghiệp nước ngoài không có cơ sở thường trú tại Việt Nam, bao gồm cả các doanh nghiệp kinh doanh thương mại điện tử, kinh doanh dựa trên nền tảng số, nộp thuế đối với thu nhập chịu thuế phát sinh tại Việt Nam.",
+    "type": "yes_no"
   },
   {
-    "question": "Những luật nào đã được Quốc hội thông qua làm căn cứ sửa đổi, bổ sung quy định về ưu đãi thuế tại Luật Thuế thu nhập doanh nghiệp số 67/2025/QH15?",
-    "expected_answer": "Gồm 3 luật: Luật Công nghệ cao số 133/2025/QH15; Luật An toàn thông tin mạng số 116/2025/QH15; Luật Đầu tư số 143/2025/QH15.",
-    "expected_context": "quy định về ưu đãi thuế tại Luật Thuế TNDN số 67/2025/QH15 đã được sửa đổi, bổ sung bởi các Luật sau: Luật Công nghệ cao số 133/2025/QH15; Luật An toàn thông tin mạng số 116/2025/QH15; Luật Đầu tư số 143/2025/QH15."
+    "question": "So sánh mức thuế suất ưu đãi TNDN của doanh nghiệp có doanh thu dưới 3 tỷ đồng và doanh nghiệp có doanh thu từ trên 3 tỷ đến 50 tỷ đồng theo Luật Thuế TNDN 67/2025/QH15.",
+    "expected_answer": "Doanh nghiệp có tổng doanh thu năm không quá 03 tỷ đồng được áp dụng thuế suất 15%. Doanh nghiệp có tổng doanh thu năm từ trên 03 tỷ đồng đến không quá 50 tỷ đồng được áp dụng thuế suất 17%. Cả hai mức đều thấp hơn thuế suất phổ thông 20%.",
+    "expected_context": "Thuế suất 15% áp dụng đối với doanh nghiệp có tổng doanh thu năm không quá 03 tỷ đồng. Thuế suất 17% áp dụng đối với doanh nghiệp có tổng doanh thu năm từ trên 03 tỷ đồng đến không quá 50 tỷ đồng.",
+    "type": "multi_hop"
   },
   {
-    "question": "Doanh nghiệp sản xuất sản phẩm công nghệ cao được hưởng mức thuế suất ưu đãi thuế TNDN đề xuất khác như thế nào so với Trung tâm nghiên cứu phát triển công nghệ cao?",
-    "expected_answer": "Doanh nghiệp sản xuất sản phẩm công nghệ cao được áp dụng thuế suất 17% trong 10 năm (miễn 2 năm, giảm 50% trong 4 năm tiếp theo), thấp hơn mức ưu đãi của Trung tâm R&D công nghệ cao là 10% trong 25 năm (miễn 4 năm, giảm 50% trong 9 năm tiếp theo).",
-    "expected_context": "Trung tâm nghiên cứu và phát triển công nghệ cao, doanh nghiệp công nghệ cao nhóm 1 theo quy định của pháp luật về công nghệ cao được áp dụng thuế suất 10% trong 25 năm, miễn thuế 4 năm và giảm 50% số thuế TNDN phải nộp trong 9 năm tiếp theo; doanh nghiệp sản xuất sản phẩm công nghệ cao theo quy định của pháp luật về công nghệ cao vào diện áp dụng ưu đãi thuế được áp dụng thuế suất 17% trong 10 năm, miễn thuế 2 năm và giảm 50% số thuế TNDN phải nộp trong 4 năm tiếp theo."
+    "question": "Một công ty cổ phần không phải công ty đại chúng, không có vốn Nhà nước muốn bổ nhiệm Chủ tịch HĐQT kiêm Tổng Giám đốc làm người đại diện theo pháp luật. Điều này có hợp pháp không? Căn cứ pháp lý từ những điều khoản nào?",
+    "expected_answer": "Hợp pháp. Khoản 2 Điều 156 Luật Doanh nghiệp 2020 cho phép Chủ tịch HĐQT công ty cổ phần không có vốn Nhà nước, không phải công ty đại chúng được kiêm nhiệm Tổng Giám đốc. Đồng thời, khoản 2 Điều 137 quy định trường hợp công ty chỉ có một người đại diện theo pháp luật thì Chủ tịch HĐQT hoặc Giám đốc/Tổng Giám đốc là người đại diện theo pháp luật.",
+    "expected_context": "khoản 2 Điều 156 Luật Doanh nghiệp cho phép đối với công ty cổ phần không có vốn Nhà nước, không phải là công ty đại chúng thì Chủ tịch Hội đồng quản trị được kiêm nhiệm Tổng Giám đốc. Trường hợp công ty chỉ có một người đại diện theo pháp luật thì Chủ tịch Hội đồng quản trị hoặc Giám đốc hoặc Tổng Giám đốc là người đại diện theo pháp luật của công ty.",
+    "type": "multi_hop"
   },
   {
-    "question": "Doanh nghiệp đã được cấp Giấy chứng nhận doanh nghiệp công nghệ cao theo Luật Công nghệ cao năm 2008 thì có tiếp tục được hưởng ưu đãi thuế TNDN không?",
-    "expected_answer": "Được tiếp tục hưởng ưu đãi thuế TNDN theo quy định của pháp luật về thuế TNDN tại thời điểm cấp Giấy chứng nhận cho đến khi hết thời hạn ghi trên Giấy chứng nhận.",
-    "expected_context": "Tổ chức, doanh nghiệp đã được cấp Giấy chứng nhận doanh nghiệp công nghệ cao... theo quy định của Luật Công nghệ cao số 21/2008/QH12 được tiếp tục hưởng ưu đãi thuế thu nhập doanh nghiệp theo quy định của pháp luật về thuế thu nhập doanh nghiệp tại thời điểm cấp Giấy chứng nhận, cho đến khi hết thời hạn ghi trên Giấy chứng nhận."
+    "question": "Luật Giao dịch điện tử số 20/2023/QH15 được Quốc hội thông qua khi nào và có hiệu lực từ ngày nào? Kế hoạch triển khai thi hành Luật này được ban hành theo Quyết định nào?",
+    "expected_answer": "Luật Giao dịch điện tử số 20/2023/QH15 được Quốc hội Khóa XV thông qua tại Kỳ họp thứ 5 ngày 22/6/2023, có hiệu lực thi hành từ ngày 01/7/2024. Kế hoạch triển khai thi hành được ban hành theo Quyết định số 1198/QĐ-TTg của Thủ tướng Chính phủ.",
+    "expected_context": "Luật Giao dịch điện tử số 20/2023/QH15 được Quốc hội Khóa XV thông qua tại Kỳ họp thứ 5 ngày 20/06/2023, có hiệu lực thi hành từ ngày 01/7/2024. Phó Thủ tướng Chính phủ Trần Hồng Hà ký Quyết định số 1198/QĐ-TTg ban hành Kế hoạch triển khai thi hành Luật Giao dịch điện tử.",
+    "type": "multi_hop"
   },
   {
-    "question": "Cơ quan nào trong công ty cổ phần có thẩm quyền bầu, bãi nhiệm và miễn nhiệm Chủ tịch Hội đồng quản trị?",
-    "expected_answer": "Hội đồng quản trị có thẩm quyền bầu một thành viên làm Chủ tịch Hội đồng quản trị, và cũng có quyền bãi nhiệm, miễn nhiệm chức danh này.",
-    "expected_context": "Hội đồng quản trị bầu một thành viên của Hội đồng quản trị làm Chủ tịch. Chủ tịch Hội đồng quản trị có thể kiêm Giám đốc hoặc Tổng giám đốc nếu Điều lệ công ty không có quy định khác. Hội đồng quản trị có quyền bãi nhiệm, miễn nhiệm Chủ tịch Hội đồng quản trị."
+    "question": "Hộ kinh doanh có mức doanh thu năm bao nhiêu thì thuộc đối tượng không chịu thuế giá trị gia tăng theo Luật sửa đổi 149/2025/QH15?",
+    "expected_answer": "Hộ, cá nhân sản xuất, kinh doanh có mức doanh thu năm từ 500 triệu đồng trở xuống thuộc đối tượng không chịu thuế giá trị gia tăng.",
+    "expected_context": "Hàng hóa, dịch vụ của hộ, cá nhân sản xuất, kinh doanh có mức doanh thu năm từ 500 triệu đồng trở xuống",
+    "type": "factual"
   },
   {
-    "question": "Luật Doanh nghiệp năm 2020 (Luật số 59/2020/QH14) chính thức có hiệu lực thi hành kể từ thời điểm nào?",
-    "expected_answer": "Luật Doanh nghiệp năm 2020 có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021.",
-    "expected_context": "Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021. Luật Doanh nghiệp số 68/2014/QH13 hết hiệu lực kể từ ngày Luật này có hiệu lực."
+    "question": "Quy định của pháp luật Việt Nam về thuế thu nhập cá nhân đối với lao động tự do (freelancer) là gì?",
+    "expected_answer": "Tôi không tìm thấy thông tin này trong nguồn tài liệu hiện có. Corpus hiện tại chỉ bao gồm Luật Thuế thu nhập doanh nghiệp, Luật Thuế GTGT, Luật Doanh nghiệp, Luật Giao dịch điện tử và Luật Thương mại điện tử, không bao gồm Luật Thuế thu nhập cá nhân.",
+    "expected_context": "Không có tài liệu nào trong corpus đề cập đến thuế thu nhập cá nhân hoặc quy định dành cho lao động tự do (freelancer).",
+    "type": "out_of_scope"
+  },
+  {
+    "question": "Thủ tục xin visa lao động cho người nước ngoài làm việc tại Việt Nam cần những giấy tờ gì?",
+    "expected_answer": "Tôi không tìm thấy thông tin này trong nguồn tài liệu hiện có. Corpus hiện tại không bao gồm quy định về visa lao động hay Luật người lao động nước ngoài làm việc tại Việt Nam.",
+    "expected_context": "Không có tài liệu nào trong corpus đề cập đến thủ tục xin visa lao động hoặc quy định về người lao động nước ngoài.",
+    "type": "out_of_scope"
+  },
+  {
+    "question": "Một startup công nghệ có doanh thu 2 tỷ đồng/năm vừa bắt đầu bán hàng trên sàn thương mại điện tử. Startup này cần tuân thủ những nghĩa vụ pháp lý chính nào theo pháp luật hiện hành?",
+    "expected_answer": "Về thuế TNDN, startup có doanh thu không quá 3 tỷ đồng được áp dụng thuế suất ưu đãi 15% thay vì 20%. Về thương mại điện tử, người bán trên nền tảng TMĐT trung gian phải đăng ký tài khoản và chịu trách nhiệm theo Luật TMĐT số 122/2025/QH15. Ngoài ra, nếu thực hiện giao dịch điện tử, startup cần đảm bảo các giao dịch tuân thủ Luật Giao dịch điện tử về giá trị pháp lý của thông điệp dữ liệu.",
+    "expected_context": "Thuế suất 15% áp dụng đối với doanh nghiệp có tổng doanh thu năm không quá 03 tỷ đồng. Nền tảng thương mại điện tử trung gian là nền tảng thương mại điện tử cho phép tổ chức, cá nhân khác đăng ký tài khoản để thực hiện hoạt động giới thiệu, bán hàng hóa hoặc cung ứng dịch vụ trên chính nền tảng đó.",
+    "type": "reallife_situational"
+  },
+  {
+    "question": "Công ty A ký hợp đồng mua bán qua sàn TMĐT với đối tác. Hợp đồng được ký bằng chữ ký điện tử. Hợp đồng này có giá trị pháp lý không và cần đáp ứng điều kiện gì?",
+    "expected_answer": "Có giá trị pháp lý. Theo Luật Giao dịch điện tử, chữ ký điện tử không bị phủ nhận giá trị pháp lý chỉ vì được thể hiện dưới dạng chữ ký điện tử. Chữ ký điện tử chuyên dùng bảo đảm an toàn hoặc chữ ký số có giá trị pháp lý tương đương chữ ký trong văn bản giấy. Ngoài ra, chữ ký điện tử chuyên dùng phải đáp ứng các yêu cầu: xác nhận chủ thể ký, dữ liệu tạo chữ ký gắn duy nhất với nội dung thông điệp dữ liệu được chấp thuận.",
+    "expected_context": "Chữ ký điện tử không bị phủ nhận giá trị pháp lý chỉ vì được thể hiện dưới dạng chữ ký điện tử. Chữ ký điện tử chuyên dùng bảo đảm an toàn hoặc chữ ký số có giá trị pháp lý tương đương chữ ký của cá nhân đó trong văn bản giấy.",
+    "type": "reallife_situational"
+  },
+  {
+    "question": "Một doanh nhân muốn mở công ty cổ phần với 2 người bạn. Luật Doanh nghiệp 2020 có cho phép thành lập công ty cổ phần với chỉ 3 cổ đông không, và cổ đông có chịu trách nhiệm vô hạn về nợ công ty không?",
+    "expected_answer": "Được phép. Luật Doanh nghiệp 2020 quy định số lượng cổ đông tối thiểu của công ty cổ phần là 03 và không hạn chế tối đa. Cổ đông chỉ chịu trách nhiệm về các khoản nợ và nghĩa vụ tài sản khác của doanh nghiệp trong phạm vi số vốn đã góp vào doanh nghiệp (trách nhiệm hữu hạn), không phải chịu trách nhiệm vô hạn.",
+    "expected_context": "Cổ đông có thể là tổ chức, cá nhân; số lượng cổ đông tối thiểu là 03 và không hạn chế số lượng tối đa. Cổ đông chỉ chịu trách nhiệm về các khoản nợ và nghĩa vụ tài sản khác của doanh nghiệp trong phạm vi số vốn đã góp vào doanh nghiệp.",
+    "type": "reallife_situational"
   }
 ]

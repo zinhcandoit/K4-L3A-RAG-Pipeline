@@ -10,7 +10,7 @@
 | Generator model                    | nvidia/nemotron-3.5-lightning-30b-a3b |
 | Embedding model                    | BAAI/bge-m3 (dim: 1024) |
 | Corpus version/commit              | Commit 738db13 (Branch vinh) |
-| Golden dataset size                | 16 ground-truth Q&A cases |
+| Golden dataset size                | 20 ground-truth Q&A cases |
 | `top_k`                            | 5 |
 | Fallback threshold and calibration | 0.3 (calibrated: in-domain cosine 0.65-0.88 vs out-of-domain 0.15-0.28) |
 

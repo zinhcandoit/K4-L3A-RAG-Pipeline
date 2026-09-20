@@ -3,18 +3,16 @@ Task 1 — Thu thập tài liệu chính sách/quy định.
 
 Hướng dẫn:
     1. Chọn chủ đề của nhóm.
-    2. Tìm tối thiểu 3 tài liệu PDF/DOCX từ nguồn công khai.
-    3. Lưu file gốc vào data/landing/legal/.
+    2. Tìm tối thiểu 3 tài liệu PDF/DOC/DOCX từ nguồn công khai.
+    3. Lưu file gốc vào data/landing/legal/ (định dạng: .doc, .docx, .pdf; không dùng .md ở tầng landing).
     4. Đặt tên không dấu và thể hiện đúng nội dung.
-
-Ví dụ tài liệu: học phí, học bổng, ký túc xá, quy trình đăng ký.
-Nếu website chặn crawler, hãy chọn nguồn công khai khác; không vượt WAF.
 """
 
 from pathlib import Path
 
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "landing" / "legal"
+ALLOWED_EXTENSIONS = {".pdf", ".doc", ".docx"}
 
 
 def setup_directory() -> None:
@@ -26,12 +24,11 @@ def setup_directory() -> None:
 def download_documents() -> None:
     """Kiểm tra tài liệu pháp luật đã thu thập.
 
-    Các file .md đã được convert từ PDF qua ILovePDF/nguồn công khai
-    và đặt sẵn trong data/landing/legal/.
+    Chỉ chấp nhận các định dạng gốc: .doc, .docx, .pdf trong data/landing/legal/.
     """
     legal_files = [
         p for p in DATA_DIR.iterdir()
-        if p.is_file() and not p.name.startswith(".") and p.suffix.lower() == ".md"
+        if p.is_file() and not p.name.startswith(".") and p.suffix.lower() in ALLOWED_EXTENSIONS
     ]
     if len(legal_files) < 3:
         raise RuntimeError(
@@ -44,4 +41,3 @@ def download_documents() -> None:
 if __name__ == "__main__":
     setup_directory()
     download_documents()
-
