@@ -1,0 +1,170 @@
+{
+  "description": "Golden Q&A tạo thủ công từ corpus data/standardized/ (14 tài liệu về chính sách thuế và đăng ký hộ kinh doanh). ground_truth chỉ dùng thông tin có trong tài liệu nguồn.",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Nghị định 68/2026/NĐ-CP có hiệu lực từ ngày nào?",
+      "ground_truth": "Nghị định 68/2026/NĐ-CP có hiệu lực từ ngày 5/3/2026.",
+      "source_files": ["nd-68-2026-chinh-sach-thue-ho-kinh-doanh.md"],
+      "doc_type": "legal",
+      "category": "factoid"
+    },
+    {
+      "id": "q02",
+      "question": "Nghị định 68/2026/NĐ-CP gồm bao nhiêu chương, bao nhiêu điều và điều chỉnh những nội dung gì?",
+      "ground_truth": "Nghị định 68/2026/NĐ-CP gồm 5 chương và 19 điều, quy định về chính sách thuế và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh.",
+      "source_files": ["nd-68-2026-chinh-sach-thue-ho-kinh-doanh.md"],
+      "doc_type": "legal",
+      "category": "factoid"
+    },
+    {
+      "id": "q03",
+      "question": "Theo Thông tư 18/2026/TT-BTC, hộ kinh doanh phải gửi thông báo khi thành lập, thay đổi thông tin hoặc tạm ngừng địa điểm kinh doanh theo mẫu nào?",
+      "ground_truth": "Hộ kinh doanh, cá nhân kinh doanh gửi thông báo đến cơ quan thuế quản lý trụ sở kinh doanh theo Mẫu số 01/TB-ĐĐKD; cơ quan thuế gửi thông báo lại cho người nộp thuế theo Mẫu số 02/TB-ĐĐKD.",
+      "source_files": ["tt-18-2026-btc-thu-tuc-thue-ho-kinh-doanh.md"],
+      "doc_type": "legal",
+      "category": "factoid"
+    },
+    {
+      "id": "q04",
+      "question": "Hộ kinh doanh đang hoạt động thuộc đối tượng điểm b khoản 4 Điều 17 Nghị định 68 phải gửi thông báo số tài khoản hoặc ví điện tử chậm nhất khi nào và theo mẫu nào?",
+      "ground_truth": "Phải gửi thông báo số tài khoản/số hiệu ví điện tử theo Mẫu số 01/BK-STK chậm nhất là ngày 20/4/2026.",
+      "source_files": ["tt-18-2026-btc-thu-tuc-thue-ho-kinh-doanh.md"],
+      "doc_type": "legal",
+      "category": "factoid"
+    },
+    {
+      "id": "q05",
+      "question": "Hộ kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân doanh thu tính thuế thì dùng tờ khai mẫu nào, và hồ sơ quyết toán thuế thu nhập cá nhân là mẫu nào?",
+      "ground_truth": "Hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác là tờ khai theo Mẫu số 01/CNKD. Hồ sơ khai quyết toán thuế thu nhập cá nhân là tờ khai theo Mẫu số 02/CNKD-TNCN-QTT.",
+      "source_files": ["tt-18-2026-btc-thu-tuc-thue-ho-kinh-doanh.md"],
+      "doc_type": "legal",
+      "category": "factoid"
+    },
+    {
+      "id": "q06",
+      "question": "Từ năm 2026 hộ kinh doanh có doanh thu dưới 3 tỷ đồng và xác định được chi phí đầu vào chịu thuế thu nhập cá nhân với thuế suất bao nhiêu?",
+      "ground_truth": "Hộ kinh doanh có doanh thu dưới 3 tỷ đồng một năm và xác định được chi phí đầu vào chịu thuế suất 15% trên phần lợi nhuận (chênh lệch giữa doanh thu và chi phí).",
+      "source_files": ["bo-thue-khoan-ho-kinh-doanh-tinh-thue-the-nao-tu-2026-4992081.md"],
+      "doc_type": "news",
+      "category": "factoid"
+    },
+    {
+      "id": "q07",
+      "question": "Hộ kinh doanh bán lẻ hàng hóa có doanh thu 1 tỷ đồng một năm và không xác định được chi phí thì tổng số thuế phải nộp mỗi năm là bao nhiêu?",
+      "ground_truth": "Thuế VAT là 1% trên toàn bộ doanh thu, tức 10 triệu đồng. Thuế thu nhập cá nhân là 0,5% doanh thu sau khi trừ ngưỡng 500 triệu đồng, tức 2,5 triệu đồng. Tổng cộng hộ này nộp 12,5 triệu đồng một năm.",
+      "source_files": ["bo-thue-khoan-ho-kinh-doanh-tinh-thue-the-nao-tu-2026-4992081.md"],
+      "doc_type": "news",
+      "category": "reasoning"
+    },
+    {
+      "id": "q08",
+      "question": "Lệ phí môn bài với hộ kinh doanh chấm dứt từ khi nào và theo văn bản nào?",
+      "ground_truth": "Việc thu, nộp lệ phí môn bài chấm dứt từ ngày 1/1/2026, theo Nghị quyết 198 của Quốc hội về hỗ trợ thuế, phí cho kinh tế tư nhân.",
+      "source_files": ["nq-198-2025-qh15-kinh-te-tu-nhan.md", "bo-thue-khoan-ho-kinh-doanh-tinh-thue-the-nao-tu-2026-4992081.md"],
+      "doc_type": "legal",
+      "category": "multi-source"
+    },
+    {
+      "id": "q09",
+      "question": "Doanh nghiệp nhỏ và vừa được miễn thuế thu nhập doanh nghiệp trong bao lâu theo Nghị quyết 198/2025/QH15?",
+      "ground_truth": "Doanh nghiệp nhỏ và vừa được miễn thuế thu nhập doanh nghiệp trong 03 năm kể từ ngày được cấp Giấy chứng nhận đăng ký doanh nghiệp lần đầu.",
+      "source_files": ["nq-198-2025-qh15-kinh-te-tu-nhan.md"],
+      "doc_type": "legal",
+      "category": "factoid"
+    },
+    {
+      "id": "q10",
+      "question": "Hộ kinh doanh có doanh thu bao nhiêu thì bắt buộc phải sử dụng hóa đơn điện tử, và doanh thu dưới 500 triệu đồng thì sao?",
+      "ground_truth": "Hộ kinh doanh có doanh thu năm từ 1 tỷ đồng trở lên bắt buộc sử dụng hóa đơn điện tử. Doanh thu từ 500 triệu đồng trở lên được khuyến khích sử dụng. Hộ có doanh thu dưới 500 triệu đồng không thuộc đối tượng đăng ký sử dụng hóa đơn điện tử.",
+      "source_files": ["huong-dan-ho-kinh-doanh-su-dung-hoa-don-dien-tu-trong-ke-khai-thue-1192603231655.md"],
+      "doc_type": "news",
+      "category": "factoid"
+    },
+    {
+      "id": "q11",
+      "question": "Hộ kinh doanh có doanh thu từ 1 tỷ đến dưới 3 tỷ đồng không có đủ hóa đơn, chứng từ đầu vào thì tính thuế theo phương pháp nào?",
+      "ground_truth": "Hộ kinh doanh này thuộc đối tượng sử dụng hóa đơn điện tử theo khoản 5 Điều 8 Nghị định 68/2026/NĐ-CP. Nếu không đủ hóa đơn, chứng từ đầu vào thì áp dụng phương pháp tính thuế theo thuế suất nhân (x) với doanh thu.",
+      "source_files": ["huong-dan-ho-kinh-doanh-su-dung-hoa-don-dien-tu-trong-ke-khai-thue-1192603231655.md"],
+      "doc_type": "news",
+      "category": "factoid"
+    },
+    {
+      "id": "q12",
+      "question": "Hộ khoán chuyển sang phương pháp kê khai phải làm thủ tục gì và nộp tờ khai điều chỉnh chậm nhất khi nào?",
+      "ground_truth": "Hộ khoán điều chỉnh, bổ sung tờ khai thuế khoán theo Mẫu 01/CNKD, tích chọn mục \"Hộ khoán chuyển đổi phương pháp tính thuế\" để cơ quan thuế điều chỉnh giảm mức thuế đã khoán cho thời gian chuyển đổi. Tờ khai điều chỉnh phải nộp chậm nhất là ngày thứ 10 kể từ ngày hộ kinh doanh bắt đầu chuyển đổi phương pháp tính thuế.",
+      "source_files": ["huong-dan-ho-kinh-doanh-nop-thue-theo-phuong-phap-ke-khai-119250614094921101.md", "giai-dap-ve-ho-kinh-doanh-theo-phuong-phap-khoan-chuyen-sang-ke-khai-11925081214.md"],
+      "doc_type": "news",
+      "category": "multi-source"
+    },
+    {
+      "id": "q13",
+      "question": "Hộ kinh doanh kê khai thuế theo tháng hoặc theo quý phải nộp hồ sơ khai thuế chậm nhất vào thời điểm nào?",
+      "ground_truth": "Nếu kê khai theo tháng: chậm nhất là ngày thứ 20 của tháng tiếp theo tháng phát sinh nghĩa vụ thuế. Nếu kê khai theo quý: chậm nhất là ngày cuối cùng của tháng đầu quý tiếp theo liền kề quý phát sinh nghĩa vụ thuế. Thời hạn nộp thuế chậm nhất là ngày cuối cùng của thời hạn nộp hồ sơ khai thuế.",
+      "source_files": ["huong-dan-ho-kinh-doanh-nop-thue-theo-phuong-phap-ke-khai-119250614094921101.md"],
+      "doc_type": "news",
+      "category": "factoid"
+    },
+    {
+      "id": "q14",
+      "question": "Hộ kinh doanh kê khai có thể nộp hồ sơ khai thuế và nộp thuế qua những kênh nào?",
+      "ground_truth": "Hồ sơ khai thuế nộp qua Cổng Thuế điện tử (thuedientu.gdt.gov.vn, phân hệ Cá nhân) hoặc Cổng dịch vụ công quốc gia (dichvucong.gov.vn); nếu không nộp được điện tử thì nộp trực tiếp tại bộ phận một cửa hoặc qua bưu chính. Thuế có thể nộp qua ứng dụng eTax Mobile, Cổng Thuế điện tử hoặc Cổng dịch vụ công quốc gia.",
+      "source_files": ["huong-dan-ho-kinh-doanh-nop-thue-theo-phuong-phap-ke-khai-119250614094921101.md"],
+      "doc_type": "news",
+      "category": "factoid"
+    },
+    {
+      "id": "q15",
+      "question": "Hộ kinh doanh kê khai phải có những loại sổ kế toán nào tại cửa hàng theo Thông tư 88/2021/TT-BTC?",
+      "ground_truth": "Hộ sử dụng bảy sổ kế toán: sổ chi tiết doanh thu bán hàng hóa, dịch vụ; sổ chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa; sổ chi phí sản xuất, kinh doanh; sổ theo dõi tình hình thực hiện nghĩa vụ thuế với ngân sách nhà nước; sổ theo dõi tình hình thanh toán tiền lương và các khoản nộp theo lương của người lao động; sổ quỹ tiền mặt; sổ tiền gửi ngân hàng.",
+      "source_files": ["giai-dap-ve-ho-kinh-doanh-theo-phuong-phap-khoan-chuyen-sang-ke-khai-11925081214.md"],
+      "doc_type": "news",
+      "category": "factoid"
+    },
+    {
+      "id": "q16",
+      "question": "Hộ kinh doanh chuyển từ khoán sang kê khai có phải mua phần mềm hay nộp thêm lệ phí không?",
+      "ground_truth": "Không. Theo Kế hoạch 60 ngày cao điểm của Cục Thuế, mọi thủ tục đăng ký, kê khai, nộp thuế điện tử đều miễn phí, không thu thêm lệ phí và không yêu cầu hộ kinh doanh mua phần mềm.",
+      "source_files": ["ho-kinh-doanh-chuyen-sang-ke-khai-khong-can-mua-phan-mem-nop-le-phi-4958714.md"],
+      "doc_type": "news",
+      "category": "factoid"
+    },
+    {
+      "id": "q17",
+      "question": "Nếu bán hàng trên sàn thương mại điện tử có chức năng thanh toán thì việc nộp thuế được thực hiện thế nào, và khi nào hộ được hoàn thuế nộp thừa?",
+      "ground_truth": "Sàn có chức năng thanh toán sẽ khấu trừ và nộp thuế VAT, thuế thu nhập cá nhân theo tỉ lệ trên doanh thu. Nếu doanh thu cuối năm dưới 200 triệu đồng thì hộ được hoàn tiền thuế nộp thừa mà sàn đã nộp thay. Nếu sàn không có chức năng thanh toán thì hộ tự kê khai và nộp thuế theo từng lần phát sinh, theo tháng hoặc quý.",
+      "source_files": ["cuc-thue-go-vuong-cho-ho-kinh-doanh-20251103010447602.md"],
+      "doc_type": "news",
+      "category": "reasoning"
+    },
+    {
+      "id": "q18",
+      "question": "Hộ kinh doanh khoán đang nộp thuế khoán, nếu xuất hóa đơn thì phải nộp thêm thuế gì và có được khấu trừ thuế đầu vào không?",
+      "ground_truth": "Vì đang nộp thuế khoán nên nếu xuất hóa đơn, hộ phải nộp thêm phần thuế ngoài khoán với tỉ lệ 4,5% và không thể khấu trừ thuế đầu vào. Giải pháp được khuyến nghị là chuyển sang doanh nghiệp để hưởng phương pháp khấu trừ và được chuyển lỗ 5 năm nếu có.",
+      "source_files": ["tu-khoan-sang-ke-khai-ho-kinh-doanh-hoi-co-quan-thue-tra-loi-102250612170705652.md"],
+      "doc_type": "news",
+      "category": "factoid"
+    },
+    {
+      "id": "q19",
+      "question": "Theo Nghị định 168/2025/NĐ-CP, một cá nhân được đăng ký tối đa bao nhiêu hộ kinh doanh và những đối tượng nào không phải đăng ký hộ kinh doanh?",
+      "ground_truth": "Cá nhân, thành viên hộ gia đình chỉ được đăng ký một hộ kinh doanh trong phạm vi toàn quốc. Hộ gia đình sản xuất nông, lâm, ngư nghiệp, làm muối và những người bán hàng rong, quà vặt, buôn chuyến, kinh doanh lưu động, kinh doanh thời vụ, làm dịch vụ có thu nhập thấp không phải đăng ký hộ kinh doanh, trừ trường hợp kinh doanh ngành, nghề đầu tư kinh doanh có điều kiện.",
+      "source_files": ["nd-168-2025-dang-ky-doanh-nghiep-ho-kinh-doanh.md"],
+      "doc_type": "legal",
+      "category": "multi-source"
+    },
+    {
+      "id": "q20",
+      "question": "Hộ kinh doanh không có địa điểm kinh doanh cố định thì đăng ký trụ sở như thế nào theo Nghị định 168/2025/NĐ-CP?",
+      "ground_truth": "Hộ kinh doanh không có địa điểm kinh doanh cố định chọn một địa chỉ để đăng ký trụ sở và đăng ký không hoạt động kinh doanh tại trụ sở. Sau khi thành lập, nếu phát sinh hoạt động kinh doanh tại một địa điểm cố định thì hộ phải đăng ký trụ sở tại nơi thực hiện hoạt động kinh doanh cố định đó.",
+      "source_files": ["nd-168-2025-dang-ky-doanh-nghiep-ho-kinh-doanh.md"],
+      "doc_type": "legal",
+      "category": "factoid"
+    }
+  ],
+  "out_of_domain_queries": [
+    "Học phí đại học năm 2026 là bao nhiêu?",
+    "Công thức nấu phở bò truyền thống gồm những nguyên liệu nào?",
+    "Ai vô địch World Cup 2022?"
+  ]
+}
