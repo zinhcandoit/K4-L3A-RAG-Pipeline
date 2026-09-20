@@ -33,8 +33,8 @@ BẮT BUỘC trả lời theo đúng định dạng sau:
 <Nội dung câu trả lời đầy đủ, chính xác, có đánh dấu số trích dẫn [1], [2] ở từng khẳng định>
 
 Nguồn:
-[1] <Tựa/Title> - <file/Source> - <url>
-[2] <Tựa/Title> - <file/Source> - <url>"""
+[1] <file/Source>\n
+[2] <file/Source>"""
 
 
 def reorder_for_llm(chunks: list[dict]) -> list[dict]:
