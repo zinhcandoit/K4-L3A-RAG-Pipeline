@@ -1,0 +1,45 @@
+# Cục Thuế gỡ vướng cho hộ kinh doanh
+
+**Source:** https://tuoitre.vn/cuc-thue-go-vuong-cho-ho-kinh-doanh-20251103010447602.htm
+
+**Crawled:** 2026-09-20T15:22:18
+
+**Published:** 2025-11-03T07:55:00+07:00
+
+---
+
+> Hộ kinh doanh muốn nộp thuế theo dữ liệu trên hệ thống, cơ quan thuế thông báo mà không phải kê khai thuế nữa. Bên cạnh đó, sàn thương mại điện tử có thể xuất hóa đơn thay hộ kinh doanh.
+
+*Tuổi Trẻ* ghi nhận câu hỏi của tiểu thương và trả lời của Cục Thuế (Bộ Tài chính).
+
+## Hộ muốn phần mềm tính thuế luôn, Cục Thuế đáp ứng
+
+Trao đổi với Tuổi Trẻ, bà Nguyễn Thị Mai ([hộ kinh doanh](https://tuoitre.vn/ho-kinh-doanh.html) trên phố Thụy Khuê, Hà Nội) cho biết đã được công ty phần mềm hướng dẫn cách sử dụng phần mềm xuất [hóa đơn điện tử](https://tuoitre.vn/hoa-don-dien-tu.html) (HĐĐT). Đến nay bà đã sẵn sàng chuyển sang thuế kê khai từ năm sau chứ không còn lo lắng như cách đây mấy tháng.
+
+Tuy nhiên để hỗ trợ tối đa cho hộ kinh doanh, bà Mai kiến nghị phần mềm cần tính thuế luôn. Hộ kinh doanh chỉ rà soát và [nộp thuế](https://tuoitre.vn/nop-thue.html) chứ không phải kê khai nữa.
+
+Cũng liên quan khai và nộp thuế, chị Nguyễn Thị Thúy, chủ hộ kinh doanh đồ gia dụng (Hoàng Quốc Việt, Hà Nội), lo tính thuế sai khi chuyển sang thuế tính theo doanh thu. Nên cơ quan thuế cần thông báo số thuế cho từng hộ như thuế sử dụng đất phi nông nghiệp.
+
+"Khi hộ kinh doanh bán hàng và xuất HĐĐT, cơ quan thuế đã nắm được doanh thu. Do vậy, hộ không cần kê khai thuế nữa mà nộp thuế theo dữ liệu mà hệ thống thông báo" - bà Mai đề xuất.
+
+Liên quan đề nghị này, Cục Thuế cho biết đang xây dựng hệ thống ứng dụng tính thuế tự động từ dữ liệu HĐĐT. Đây là giải pháp đột phá nhằm giảm gánh nặng kê khai cho hộ kinh doanh và tăng độ chính xác trong tính thuế.
+
+Cục Thuế sẽ phát triển một ứng dụng (hoặc chức năng trên hệ thống eTax) cho phép tổng hợp toàn bộ dữ liệu doanh thu của hộ kinh doanh từ hệ thống HĐĐT và các nguồn khác, từ đó tự động xác định số thuế phải nộp theo quy định, tạo sẵn tờ khai thuế gợi ý. Hộ kinh doanh chỉ cần đăng nhập, kiểm tra thông tin và xác nhận để nộp tờ khai, thay vì phải tự tính toán từ đầu dễ sai sót.
+
+"Mỗi hộ kinh doanh có một bảng thông tin thuế, ghi nhận doanh thu từ hóa đơn, tính ra số thuế VAT, thuế thu nhập cá nhân. Hộ tải về hoặc in tờ khai đã được điền sẵn. Điều này giúp hộ nào cũng có thể thực hiện nghĩa vụ mà không cần thuê kế toán" - Cục Thuế thông tin.
+
+## Sàn thương mại điện tử có thể xuất hóa đơn thay?
+
+Cũng như nhiều hộ kinh doanh, chị Lưu Thúy Hạnh (Láng Hạ, Hà Nội) băn khoăn việc kê khai và nộp thuế trên sàn tới đây sẽ thế nào. Chị bán hàng trên các nền tảng như Facebook, Shopee... Các sàn đã kê khai và nộp thuế thay cho hộ kinh doanh. Vậy sàn có thể xuất HĐĐT thay cho hộ được không?
+
+Về thực hiện nghĩa vụ thuế đối với kinh doanh qua [sàn thương mại điện tử](https://tuoitre.vn/san-thuong-mai-dien-tu.html), Cục Thuế cho biết nếu bán trên sàn có chức năng thanh toán thì sàn sẽ khấu trừ và nộp thuế VAT, thuế thu nhập cá nhân theo tỉ lệ trên doanh thu. Nếu doanh thu cuối năm dưới 200 triệu đồng thì được hoàn tiền thuế nộp thừa mà sàn đã nộp thay.
+
+Trường hợp bán hàng trên sàn không có chức năng thanh toán thì hộ kinh doanh phải tự kê khai và nộp thuế theo từng lần phát sinh, theo tháng hoặc quý.
+
+Còn với việc ủy nhiệm cho sàn xuất HĐĐT, Cục Thuế cho biết trách nhiệm xuất HĐĐT là của người bán hàng, cung cấp dịch vụ.
+
+Tại hội thảo "Sắp bỏ thuế khoán, hộ kinh doanh cần chuẩn bị gì?" do báo Tuổi Trẻ tổ chức ngày 8-10, trả lời nội dung này, ông Mai Sơn - Phó cục trưởng Cục Thuế - cho biết theo quy định hộ kinh doanh có doanh thu trên 1 tỉ đồng thì phải xuất HĐĐT khởi tạo từ máy tính tiền.
+
+Trường hợp muốn sàn xuất HĐĐT thay, hộ kinh doanh cần thỏa thuận với sàn. "Trường hợp người mua hàng yêu cầu lấy hóa đơn, chúng tôi dự kiến sàn có thể sẽ xuất hóa đơn thay người bán.
+
+Hiện sàn thương mại điện tử đã khấu trừ và nộp thuế thay với doanh thu bán trên sàn của hộ và cá nhân rồi. Do đó chúng tôi sẽ điều chỉnh để quy định phù hợp với thực tiễn, tạo thuận lợi cho người kinh doanh và đảm bảo nộp thuế đúng, đủ với ngân sách" - ông Sơn chia sẻ.
