@@ -7,22 +7,13 @@
 QUỐC HỘI
 -------
 
-	
-
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Độc lập - Tự do - Hạnh phúc
 ---------------
 
-
-
-
 Nghị quyết số: 253/2025/QH15
 
-	
-
 Hà Nội, ngày 11 tháng 12 năm 2025
-
- 
 
 NGHỊ QUYẾT
 
@@ -236,15 +227,6 @@ Các dự án, công trình, hoạt động đã được chấp thuận và hư
 
 Nghị quyết này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, Kỳ họp thứ 10 thông qua ngày 11 tháng 12 năm 2025.
 
- 
-
- 
-
-	
-
 CHỦ TỊCH QUỐC HỘI
-
-
-
 
 Trần Thanh Mẫn

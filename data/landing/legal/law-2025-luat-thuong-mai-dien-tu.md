@@ -7,22 +7,13 @@
 QUỐC HỘI
 --------
 
-	
-
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Độc lập - Tự do - Hạnh phúc
 ---------------
 
-
-
-
 Luật số: 46/2024/QH15
 
-	
-
 Hà Nội, ngày 26 tháng 11 năm 2024
-
- 
 
 LUẬT
 
@@ -190,7 +181,7 @@ d) Người đã là thẩm tra viên cao cấp ngành Tòa án; chấp hành vi
 
 Điều 12. Tập sự hành nghề công chứng
 
-1. Người có giấy chứng nhận tốt nghiệp khóa đào tạo nghề công chứng liên hệ với tổ chức hành nghề công chứng theo quy định tại khoản 2 Điều này để tập sự hành nghề công chứng; trường hợp không liên hệ tập sự được thì đề nghị Sở Tư pháp bố trí tập sự.
+1. Người có giấy chứng nhận tốt nghiệp khóa đào tạo nghề công chứng liên hệ với tổ chức hành nghề công chứng theo quy định tại khoản 2 Điều này để tập sự hành nghề công chứng; trường hợp không liên hệ tập sự được thì đề nghị Sở Tư pháp bố trí tập sự.
 
 Người tập sự phải đăng ký tập sự tại Sở Tư pháp ở địa phương nơi có tổ chức hành nghề công chứng nhận tập sự.
 
@@ -238,7 +229,7 @@ Giấy chứng nhận kết quả kiểm tra tập sự hành nghề công chứ
 
 Điều 15. Tạm đình chỉ hành nghề công chứng
 
-1. Công chứng viên bị tạm đình chỉ hành nghề công chứng trong các trường hợp sau đây:
+1. Công chứng viên bị tạm đình chỉ hành nghề công chứng trong các trường hợp sau đây:
 
 a) Bị truy cứu trách nhiệm hình sự;
 
@@ -264,7 +255,7 @@ Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn b�
 
 Công chứng viên đương nhiên miễn nhiệm khi quá 70 tuổi.
 
-2. Công chứng viên bị miễn nhiệm trong các trường hợp sau đây:
+2. Công chứng viên bị miễn nhiệm trong các trường hợp sau đây:
 
 a) Không còn đủ các tiêu chuẩn quy định tại Điều 10 của Luật này, trừ trường hợp đương nhiên miễn nhiệm quy định tại khoản 1 Điều này;
 
@@ -284,7 +275,7 @@ h) Bị xử lý kỷ luật từ 02 lần trở lên trong thời hạn 12 thá
 
 i) Bị kết tội bằng bản án đã có hiệu lực pháp luật của Tòa án;
 
-k) Thuộc trường hợp không đủ tiêu chuẩn bổ nhiệm công chứng viên tại thời điểm được bổ nhiệm.
+k) Thuộc trường hợp không đủ tiêu chuẩn bổ nhiệm công chứng viên tại thời điểm được bổ nhiệm.
 
 3. Chính phủ quy định về hồ sơ, trình tự, thủ tục miễn nhiệm công chứng viên.
 
@@ -310,7 +301,7 @@ c) Thuộc trường hợp không được bổ nhiệm công chứng viên theo
 
 a) Được bảo đảm quyền hành nghề công chứng;
 
-b) Thành lập, tham gia thành lập Văn phòng công chứng, tham gia hợp danh vào Văn phòng công chứng hoặc làm việc theo chế độ hợp đồng làm việc, hợp đồng lao động cho tổ chức hành nghề công chứng;
+b) Thành lập, tham gia thành lập Văn phòng công chứng, tham gia hợp danh vào Văn phòng công chứng hoặc làm việc theo chế độ hợp đồng làm việc, hợp đồng lao động cho tổ chức hành nghề công chứng;
 
 c) Được công chứng giao dịch theo quy định của Luật này và quy định khác của pháp luật có liên quan; được chứng thực bản sao từ bản chính, chứng thực chữ ký trong giấy tờ, văn bản, chứng thực chữ ký người dịch theo quy định của pháp luật về chứng thực;
 
@@ -400,7 +391,7 @@ Chính phủ quy định danh mục các đơn vị hành chính cấp huyện �
 
 Văn phòng công chứng được tổ chức và hoạt động theo loại hình doanh nghiệp tư nhân thì chủ doanh nghiệp tư nhân đồng thời là Trưởng Văn phòng công chứng và phải là công chứng viên đã hành nghề công chứng từ đủ 02 năm trở lên.
 
-3. Trưởng Văn phòng công chứng là người đại diện theo pháp luật của Văn phòng công chứng, thực hiện việc quản lý và điều hành hoạt động của Văn phòng công chứng; không được thuê người khác điều hành Văn phòng công chứng, không được cho thuê Văn phòng công chứng.
+3. Trưởng Văn phòng công chứng là người đại diện theo pháp luật của Văn phòng công chứng, thực hiện việc quản lý và điều hành hoạt động của Văn phòng công chứng; không được thuê người khác điều hành Văn phòng công chứng, không được cho thuê Văn phòng công chứng.
 
 4. Tên của Văn phòng công chứng bao gồm cụm từ “Văn phòng công chứng” và tên riêng bằng tiếng Việt do các thành viên hợp danh của Văn phòng công chứng được tổ chức và hoạt động theo loại hình công ty hợp danh thỏa thuận lựa chọn hoặc công chứng viên là Trưởng Văn phòng công chứng của Văn phòng công chứng được tổ chức và hoạt động theo loại hình doanh nghiệp tư nhân lựa chọn, bảo đảm các yêu cầu sau đây:
 
@@ -548,7 +539,7 @@ c) Cam kết hành nghề với tư cách Trưởng Văn phòng công chứng t�
 
 3. Ủy ban nhân dân cấp tỉnh xem xét, quyết định cho phép việc bán Văn phòng công chứng được tổ chức và hoạt động theo loại hình doanh nghiệp tư nhân.
 
-4. Sau khi bán Văn phòng công chứng, Trưởng Văn phòng công chứng vẫn phải chịu trách nhiệm về các khoản nợ và nghĩa vụ tài sản khác của Văn phòng công chứng phát sinh trong thời gian trước ngày chuyển giao Văn phòng công chứng, trừ trường hợp Trưởng Văn phòng công chứng, người mua và chủ nợ có thỏa thuận khác.
+4. Sau khi bán Văn phòng công chứng, Trưởng Văn phòng công chứng vẫn phải chịu trách nhiệm về các khoản nợ và nghĩa vụ tài sản khác của Văn phòng công chứng phát sinh trong thời gian trước ngày chuyển giao Văn phòng công chứng, trừ trường hợp Trưởng Văn phòng công chứng, người mua và chủ nợ có thỏa thuận khác.
 
 5. Hết thời hạn 02 năm kể từ ngày bán Văn phòng công chứng theo quy định tại Điều này, công chứng viên đã bán Văn phòng công chứng mới được thành lập, tham gia thành lập Văn phòng công chứng mới, hợp danh vào Văn phòng công chứng khác hoặc mua Văn phòng công chứng được tổ chức và hoạt động theo loại hình doanh nghiệp tư nhân.
 
@@ -1096,7 +1087,7 @@ Trường hợp Phòng công chứng được chuyển đổi thành Văn phòng
 
 Điều 69. Cấp bản sao văn bản công chứng
 
-1. Việc cấp bản sao văn bản công chứng được thực hiện trong các trường hợp sau đây:
+1. Việc cấp bản sao văn bản công chứng được thực hiện trong các trường hợp sau đây:
 
 a) Theo yêu cầu của cơ quan nhà nước có thẩm quyền trong các trường hợp quy định tại khoản 3 Điều 68 của Luật này;
 
@@ -1104,7 +1095,7 @@ b) Theo yêu cầu của các bên tham gia giao dịch, người có quyền, n
 
 Việc cấp bản sao văn bản công chứng theo yêu cầu của người có quyền, nghĩa vụ liên quan đến giao dịch đã được công chứng phải được người yêu cầu công chứng đồng ý; trường hợp người yêu cầu công chứng là cá nhân đã chết hoặc bị Tòa án tuyên bố là đã chết hoặc pháp nhân chấm dứt hoạt động thì phải được sự đồng ý của người thừa kế đối với cá nhân, sự đồng ý của cá nhân, tổ chức kế thừa quyền, nghĩa vụ của pháp nhân đó.
 
-2. Việc cấp bản sao văn bản công chứng do tổ chức hành nghề công chứng đang lưu trữ bản gốc văn bản công chứng đó thực hiện.
+2. Việc cấp bản sao văn bản công chứng do tổ chức hành nghề công chứng đang lưu trữ bản gốc văn bản công chứng đó thực hiện.
 
 3. Việc cấp bản sao văn bản công chứng đang được lưu trữ tại tổ chức hành nghề công chứng tạm ngừng hoạt động được thực hiện theo quy định tại khoản 4 Điều 32 của Luật này.
 
@@ -1138,7 +1129,7 @@ b) Yêu cầu công chứng ngoài trụ sở của tổ chức hành nghề cô
 
 c) Tổ chức hành nghề công chứng niêm yết việc tiếp nhận công chứng văn bản phân chia di sản.
 
-2. Mức chi phí do người yêu cầu công chứng và tổ chức hành nghề công chứng thỏa thuận.
+2. Mức chi phí do người yêu cầu công chứng và tổ chức hành nghề công chứng thỏa thuận.
 
 3. Tổ chức hành nghề công chứng phải niêm yết nguyên tắc tính chi phí khác và có trách nhiệm giải thích rõ cho người yêu cầu công chứng về các chi phí cụ thể đó.
 
@@ -1212,15 +1203,6 @@ Bản dịch đã được công chứng trước ngày Luật này có hiệu l
 
 Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 8 thông qua ngày 26 tháng 11 năm 2024.
 
- 
-
- 
-
-	
-
 CHỦ TỊCH QUỐC HỘI
-
-
-
 
 Trần Thanh Mẫn

@@ -7,22 +7,13 @@
 QUỐC HỘI
 -------
 
-	
-
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Độc lập - Tự do - Hạnh phúc
 ---------------
 
-
-
-
 Luật số: 79/2025/QH15
 
-	
-
-Hà Nội, ngày 24 tháng 6 năm 2025 
-
- 
+Hà Nội, ngày 24 tháng 6 năm 2025
 
 LUẬT
 
@@ -300,15 +291,6 @@ Hồ sơ xin nhập quốc tịch Việt Nam, xin trở lại quốc tịch Vi�
 
 Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, Kỳ họp thứ 9 thông qua ngày 24 tháng 6 năm 2025.
 
- 
-
- 
-
-	
-
 CHỦ TỊCH QUỐC HỘI
-
-
-
 
 Trần Thanh Mẫn

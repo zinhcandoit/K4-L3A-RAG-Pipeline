@@ -7,22 +7,13 @@
 QUỐC HỘI
 -------
 
-	
-
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Độc lập - Tự do - Hạnh phúc
 ---------------
 
-
-
-
 Luật số: 113/2025/QH15
 
-	
-
 Hà Nội, ngày 10 tháng 12 năm 2025
-
- 
 
 LUẬT
 
@@ -458,13 +449,13 @@ Chương VIII
 
 1. Sửa đổi, bổ sung khoản 1 Điều 139 của Bộ luật Lao động số 49/2019/QH14 đã được sửa đổi, bổ sung theo Luật số 71/2025/QH15 như sau:
 
- “1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; trường hợp sinh con thứ hai, lao động nữ được nghỉ thai sản trước và sau khi sinh con là 07 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.
+ “1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; trường hợp sinh con thứ hai, lao động nữ được nghỉ thai sản trước và sau khi sinh con là 07 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.
 
 Trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ hai trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.”.
 
 2. Sửa đổi, bổ sung điểm c khoản 2 Điều 53 của Luật Bảo hiểm xã hội số 41/2024/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 73/2025/QH15 và Luật số 84/2025/QH15 như sau:
 
- “c) Trường hợp vợ sinh đôi hoặc vợ sinh con thứ hai thì được nghỉ 10 ngày làm việc. Trường hợp sinh ba trở lên thì được nghỉ thêm 03 ngày làm việc cho mỗi con tính từ con thứ ba trở đi;”.
+ “c) Trường hợp vợ sinh đôi hoặc vợ sinh con thứ hai thì được nghỉ 10 ngày làm việc. Trường hợp sinh ba trở lên thì được nghỉ thêm 03 ngày làm việc cho mỗi con tính từ con thứ ba trở đi;”.
 
 3. Sửa đổi, bổ sung một số điều, khoản, điểm của Luật Nhà ở số 27/2023/QH15 đã được sửa đổi, bổ sung một số điều theo Luật số 43/2024/QH15, Luật số 47/2024/QH15, Luật số 84/2025/QH15, Luật số 90/2025/QH15 và Luật số 93/2025/QH15 như sau:
 
@@ -484,11 +475,11 @@ g) Thay thế cụm từ “các khoản 1, 2, 3, 4, 5, 6, 8, 9, 10 và 11 Đi�
 
 h) Sửa đổi, bổ sung điểm đ khoản 1 Điều 79 như sau:
 
- “đ) Trường hợp một đối tượng được hưởng nhiều chính sách hỗ trợ khác nhau thì được hưởng một chính sách hỗ trợ mức cao nhất; trường hợp các đối tượng có cùng tiêu chuẩn và điều kiện thì thực hiện hỗ trợ theo thứ tự ưu tiên trước đối với: người có công với cách mạng, thân nhân liệt sĩ, người khuyết tật, người được bố trí tái định cư theo hình thức mua, thuê mua nhà ở xã hội, người có từ 02 con đẻ trở lên, nữ giới;”.
+ “đ) Trường hợp một đối tượng được hưởng nhiều chính sách hỗ trợ khác nhau thì được hưởng một chính sách hỗ trợ mức cao nhất; trường hợp các đối tượng có cùng tiêu chuẩn và điều kiện thì thực hiện hỗ trợ theo thứ tự ưu tiên trước đối với: người có công với cách mạng, thân nhân liệt sĩ, người khuyết tật, người được bố trí tái định cư theo hình thức mua, thuê mua nhà ở xã hội, người có từ 02 con đẻ trở lên, nữ giới;”.
 
 4. Bổ sung điểm d vào sau điểm c khoản 1 Điều 34 của Luật Khám bệnh, chữa bệnh số 15/2023/QH15 như sau:
 
- “d) Có hành vi thông báo, tiết lộ giới tính thai nhi để phá thai.”.
+ “d) Có hành vi thông báo, tiết lộ giới tính thai nhi để phá thai.”.
 
 5. Bãi bỏ khoản 3 Điều 17 của Luật Bình đẳng giới số 73/2006/QH11.
 
@@ -504,15 +495,6 @@ h) Sửa đổi, bổ sung điểm đ khoản 1 Điều 79 như sau:
 
 Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, Kỳ họp thứ 10 thông qua ngày 10 tháng 12 năm 2025.
 
- 
-
- 
-
-	
-
 CHỦ TỊCH QUỐC HỘI
-
-
-
 
 Trần Thanh Mẫn
