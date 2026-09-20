@@ -24,7 +24,9 @@ LLM_PROVIDER = os.getenv("LLM_PROVIDER", "openai")
 LLM_MODEL = os.getenv("LLM_MODEL", "")
 
 SYSTEM_PROMPT = """Trả lời chỉ từ context được cung cấp.
-Mỗi khẳng định phải có citation. Nếu thiếu evidence, hãy từ chối xác minh."""
+Mỗi khẳng định phải có citation ghi đúng tên file trong trường Source, dạng
+[Nguồn: <tên file>]. Không đánh số tài liệu, không trích nguồn ngoài context.
+Nếu thiếu evidence, hãy từ chối xác minh."""
 
 REFUSAL = "Tôi không thể xác minh thông tin này từ nguồn hiện có."
 
@@ -39,7 +41,12 @@ def reorder_for_llm(chunks: list[dict]) -> list[dict]:
 
 
 def format_context(chunks: list[dict]) -> str:
-    """Tạo context có title và source label."""
+    """Tạo context có title và source label.
+
+    Label dùng chính tên file làm khóa citation, không dùng số thứ tự: context đã
+    bị reorder_for_llm() đảo thứ tự, nên "Document 2" sẽ không khớp với sources[1]
+    mà UI hiển thị. Trích theo tên file thì đối chiếu được bất kể thứ tự.
+    """
     parts = []
     for index, chunk in enumerate(chunks, 1):
         metadata = chunk["metadata"]
@@ -48,6 +55,15 @@ def format_context(chunks: list[dict]) -> str:
             f"Source: {metadata['source']}]\n{chunk['content']}"
         )
     return "\n\n---\n\n".join(parts)
+
+
+def cited_sources(answer: str, sources: list[dict]) -> list[str]:
+    """Các file thực sự được trích trong câu trả lời, để UI đánh dấu."""
+    return [
+        item["metadata"]["source"]
+        for item in sources
+        if item["metadata"]["source"] in answer
+    ]
 
 
 def _call_openai(system_prompt: str, user_message: str) -> str:
