@@ -41,31 +41,7 @@ def download_documents() -> None:
         print(f"  [OK] {f.name} ({f.stat().st_size:,} bytes)")
 
 
-def clean_documents() -> None:
-    """Gop cac dong trong lien tiep (\\n\\n\\n...) thanh \\n duy nhat."""
-    import re
-
-    legal_files = [
-        p for p in DATA_DIR.iterdir()
-        if p.is_file() and not p.name.startswith(".") and p.suffix.lower() == ".md"
-    ]
-    for f in sorted(legal_files):
-        text = f.read_text(encoding="utf-8")
-        original_len = len(text)
-        # Gop 2+ dong trong lien tiep thanh 1 dong trong
-        cleaned = re.sub(r"\n{3,}", "\n\n", text)
-        # Xoa khoang trang thua o cuoi moi dong
-        cleaned = re.sub(r"[ \t]+\n", "\n", cleaned)
-        cleaned = cleaned.strip() + "\n"
-        f.write_text(cleaned, encoding="utf-8")
-        saved = original_len - len(cleaned)
-        if saved > 0:
-            print(f"  [CLEANED] {f.name}: -{saved:,} bytes")
-        else:
-            print(f"  [OK] {f.name}: no change")
-
-
 if __name__ == "__main__":
     setup_directory()
     download_documents()
-    clean_documents()
+

@@ -64,25 +64,69 @@ async def crawl_article(url: str) -> dict:
     except Exception as e:
         print(f"  crawl4ai failed for {url}: {e}, trying requests fallback...")
 
-    # Fallback: requests + markdownify
+    # Fallback: requests + BeautifulSoup + markdownify
     import re
 
     import requests
+    from bs4 import BeautifulSoup
     from markdownify import markdownify as md
 
     response = requests.get(
         url,
         timeout=30,
-        headers={"User-Agent": "Mozilla/5.0 (compatible; StudentBot/1.0)"},
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/120.0.0.0 Safari/537.36"
+            )
+        },
     )
     response.raise_for_status()
-    html = response.text
+    soup = BeautifulSoup(response.text, "html.parser")
 
-    # Extract title from HTML
-    title_match = re.search(r"<title[^>]*>(.*?)</title>", html, re.DOTALL | re.IGNORECASE)
-    title = title_match.group(1).strip() if title_match else "Unknown"
+    # Extract title
+    title = soup.title.get_text(strip=True) if soup.title else "Unknown"
 
-    content = md(html, strip=["script", "style", "nav", "footer", "header"])
+    # Xoa cac tag khong can thiet
+    for tag in soup.find_all(["script", "style", "nav", "footer", "header",
+                              "aside", "form", "iframe", "noscript", "svg"]):
+        tag.decompose()
+
+    # Tim phan noi dung bai viet (thu cac selector pho bien)
+    article_body = (
+        soup.find("div", class_=re.compile(r"detail[-_]?content|article[-_]?body|post[-_]?content", re.I))
+        or soup.find("article")
+        or soup.find("div", class_=re.compile(r"content[-_]?detail|entry[-_]?content|news[-_]?content", re.I))
+        or soup.find("div", {"id": re.compile(r"content|article", re.I)})
+    )
+
+    if article_body:
+        # Xoa cac phan tu menu/sidebar con sot lai trong article
+        for junk in article_body.find_all(class_=re.compile(
+            r"relate|sidebar|breadcrumb|share|social|comment|advert|banner|menu",
+            re.I,
+        )):
+            junk.decompose()
+        content = md(str(article_body), strip=["img"]).strip()
+    else:
+        # Fallback: lay body nhung bo cac phan rac
+        body = soup.find("body")
+        if body:
+            for junk in body.find_all(class_=re.compile(
+                r"header|footer|sidebar|menu|nav|breadcrumb|share|social|comment|advert|banner",
+                re.I,
+            )):
+                junk.decompose()
+            content = md(str(body), strip=["img"]).strip()
+        else:
+            content = md(str(soup), strip=["img"]).strip()
+
+    # Clean: xoa CSS/JS artifacts con sot
+    content = re.sub(r"@font-face\{[^}]+\}", "", content)
+    content = re.sub(r"\.[a-zA-Z_][\w-]*\{[^}]+\}", "", content)
+    content = re.sub(r":root\{[^}]+\}", "", content)
+    content = re.sub(r"\n{3,}", "\n\n", content)
 
     return {
         "url": url,

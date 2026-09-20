@@ -13,7 +13,6 @@ QUỐC HỘI
 
 <<<<<<< HEAD
 
-
 =======
 >>>>>>> ab64646c816d73929690c473ca4b1c2374c40982
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -23,7 +22,6 @@ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Luật số: 45/2024/QH15
 
 <<<<<<< HEAD
-
 
 =======
 >>>>>>> ab64646c816d73929690c473ca4b1c2374c40982
@@ -2110,7 +2108,6 @@ Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Vi�
 Epas: 114331
 
 <<<<<<< HEAD
-
 
 =======
 >>>>>>> ab64646c816d73929690c473ca4b1c2374c40982

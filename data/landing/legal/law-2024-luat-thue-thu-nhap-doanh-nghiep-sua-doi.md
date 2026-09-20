@@ -11,7 +11,7 @@
 QUỐC HỘI
 --------
 
-	
+
 
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Độc lập - Tự do - Hạnh phúc
@@ -19,7 +19,7 @@ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 
 Luật số: 57/2024/QH15
 
-	
+
 
 Hà Nội, ngày 29 tháng 11 năm 2024
 
@@ -239,7 +239,7 @@ a) Sửa đổi, bổ sung số thứ tự 26 như sau:
 
 26.
 
-	
+
 
 Quy hoạch tổng thể hệ thống đô thị và nông thôn
 
@@ -247,19 +247,19 @@ b) Sửa đổi, bổ sung các số thứ tự 29, 32 và 33 như sau:
 
 29.
 
-	
+
 
 Quy hoạch điều tra cơ bản địa chất, khoáng sản
 
 32.
 
-	
+
 
 Quy hoạch khoáng sản nhóm I
 
 33.
 
-	
+
 
 Quy hoạch khoáng sản nhóm II
 
@@ -267,11 +267,11 @@ Quy hoạch khoáng sản nhóm II
 
 11.
 
-	
+
 
 Quy hoạch đô thị và nông thôn
 
-	
+
 
 Luật Quy hoạch đô thị và nông thôn số 47/2024/QH15
 
@@ -393,7 +393,7 @@ a) Sửa đổi, bổ sung số thứ tự 50 như sau:
 
 50
 
-	
+
 
 Hoạt động phát điện, truyền tải điện, phân phối điện, bán buôn điện, bán lẻ điện
 
@@ -401,31 +401,31 @@ b) Sửa đổi, bổ sung các số thứ tự 115, 193, 194, 201 và 202 như 
 
 115
 
-	
+
 
 Kinh doanh dịch vụ tư vấn lập quy hoạch đô thị và nông thôn
 
 193
 
-	
+
 
 Kinh doanh dịch vụ giám định di vật, cổ vật
 
 194
 
-	
+
 
 Kinh doanh dịch vụ lập quy hoạch, dự án, thiết kế, tổ chức thi công, tư vấn giám sát thi công dự án bảo quản, tu bổ và phục hồi di tích
 
 201
 
-	
+
 
 Kinh doanh di vật, cổ vật, trừ kinh doanh xuất khẩu di vật, cổ vật; kinh doanh dịch vụ bảo quản, phục chế, số hóa, xây dựng cơ sở dữ liệu di vật, cổ vật
 
 202
 
-	
+
 
 Nhập khẩu hàng hóa văn hóa thuộc diện quản lý chuyên ngành của Bộ Văn hóa, Thể thao và Du lịch
 
@@ -433,37 +433,37 @@ c) Bổ sung các số thứ tự 90a, 90b và 90c vào sau số thứ tự 90; 
 
 90a
 
-	
+
 
 Nhập khẩu, tạm nhập tái xuất, tạm xuất tái nhập tàu bay không người lái, phương tiện bay khác, động cơ tàu bay, cánh quạt tàu bay và trang bị, thiết bị của tàu bay không người lái, phương tiện bay khác
 
 90b
 
-	
+
 
 Kinh doanh tàu bay không người lái, phương tiện bay khác, động cơ tàu bay, cánh quạt tàu bay và trang bị, thiết bị của tàu bay không người lái, phương tiện bay khác
 
 90c
 
-	
+
 
 Nghiên cứu chế tạo, thử nghiệm, sửa chữa, bảo dưỡng tàu bay không người lái, phương tiện bay khác, động cơ tàu bay, cánh quạt tàu bay và trang bị, thiết bị của tàu bay không người lái, phương tiện bay khác
 
 230
 
-	
+
 
 Kinh doanh sản phẩm, dịch vụ trung gian dữ liệu
 
 231
 
-	
+
 
 Kinh doanh sản phẩm, dịch vụ phân tích, tổng hợp dữ liệu
 
 232
 
-	
+
 
 Kinh doanh dịch vụ sàn dữ liệu
 
@@ -1103,7 +1103,7 @@ Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Vi�
 
 E-pas: 113577
 
-	
+
 
 CHỦ TỊCH QUỐC HỘI
 

@@ -7,7 +7,7 @@
 QUỐC HỘI
 -------
 
-	
+
 
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Độc lập - Tự do - Hạnh phúc
@@ -15,7 +15,7 @@ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 
 Nghị quyết số: 253/2025/QH15
 
-	
+
 
 Hà Nội, ngày 11 tháng 12 năm 2025
 
@@ -235,7 +235,7 @@ Nghị quyết này được Quốc hội nước Cộng hòa xã hội chủ ng
 
  
 
-	
+
 
 CHỦ TỊCH QUỐC HỘI
 

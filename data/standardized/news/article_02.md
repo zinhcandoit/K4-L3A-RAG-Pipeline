@@ -1,0 +1,24 @@
+# Kế hoạch triển khai thi hành Luật Giao dịch điện tử
+**Source:** https://baochinhphu.vn/ke-hoach-trien-khai-thi-hanh-luat-giao-dich-dien-tu-102231013205019682.htm
+**Crawled:** 2026-09-20T15:24:09.976034
+---
+Ban hành Kế hoạch triển khai thi hành Luật Giao dịch điện tử
+Luật Giao dịch điện tử số 20/2023/QH15 được Quốc hội Khóa XV thông qua tại Kỳ họp thứ 5 ngày 20/06/2023, có hiệu lực thi hành từ ngày 01/7/2024.
+Kế hoạch triển khai thi hành Luật Giao dịch điện tử nhằm xác định cụ thể các nội dung công việc, thời hạn, tiến độ hoàn thành và trách nhiệm cũng như cơ chế phối hợp của các Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân các cấp và cơ quan, tổ chức có liên quan trong việc tổ chức triển khai Luật Giao dịch điện tử, bảo đảm tính kịp thời, đồng bộ, thống nhất và hiệu quả.
+Cần bảo đảm sự chỉ đạo thống nhất của Chính phủ, Thủ tướng Chính phủ; sự phối hợp chặt chẽ giữa các bộ, ngành, địa phương và cơ quan liên quan trong việc tổ chức triển khai Luật Giao dịch điện tử.
+Người đứng đầu cơ quan, tổ chức, đơn vị được giao nhiệm vụ phải tích cực, chủ động triển khai thực hiện kế hoạch đúng tiến độ, bảo đảm chất lượng, thiết thực, hiệu quả; các bộ, ngành, địa phương và cơ quan liên quan phải có lộ trình cụ thể để đảm bảo Luật Giao dịch điện tử được thực hiện thống nhất, đầy đủ, đồng bộ trên phạm vi cả nước.
+### Rà soát văn bản quy phạm pháp luật
+Bộ Thông tin và Truyền thông được giao chủ trì hướng dẫn các nội dung mới của Luật Giao dịch điện tử là căn cứ để rà soát; rà soát các văn bản quy phạm pháp luật có liên quan đến Luật thuộc thẩm quyền quản lý nhà nước được phân công; tổng hợp kết quả rà soát, báo cáo Thủ tướng Chính phủ.
+Các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương rà soát văn bản quy phạm pháp luật có liên quan đến Luật Giao dịch điện tử thuộc lĩnh vực, địa bàn quản lý nhà nước được phân công và gửi kết quả về Bộ Thông tin và Truyền thông để tổng hợp trong tháng 5/2024.
+Thời gian hoàn thành rà soát: tháng 8/2024.
+Xây dựng văn bản quy phạm pháp luật quy định chi tiết các nội dung được giao trong Luật Giao dịch điện tử
+Theo Kế hoạch, sẽ xây dựng các văn bản theo Quyết định số 857/QĐ- TTg ngày 18/7/2023 của Thủ tướng Chính phủ ban hành Danh mục và phân công cơ quan chủ trì soạn thảo văn bản quy định chi tiết thi hành các luật, nghị quyết được Quốc hội khóa XV thông qua tại kỳ họp thứ 5, liên quan đến Luật Giao dịch điện tử số 20/2023/QH15.
+Bên cạnh đó, Bộ Thông tin và Truyền thông chủ trì, phối hợp với các Bộ, cơ quan có liên quan chủ trì xây dựng Quyết định của Thủ tướng Chính phủ phê duyệt Danh mục cơ sở dữ liệu quốc gia. Thời hạn trình: tháng 5/2024.
+Hằng năm, Bộ trưỏng, Thủ trưởng cơ quan ngang Bộ rà soát các quy định pháp luật có liên quan để ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành quy định về giao kết và thực hiện hợp đồng điện tử trong lĩnh vực thuộc phạm vi nhiệm vụ, quyền hạn được phân công, phù hợp với điều kiện thực tiễn.
+Tuyên truyền, phổ biến, giáo dục pháp luật về giao dịch điện tử
+---------------------------------------------------------------
+Theo Kế hoạch, sẽ đăng tải, cập nhật toàn văn nội dung văn bản Luật Giao dịch điện tử và văn bản quy định chi tiết trên Cổng/Trang Thông tin điện tử, Cơ sở dữ liệu quốc gia về văn bản pháp luật và các hình thức phù hợp khác để cán bộ, công chức, viên chức, người lao động và nhân dân dễ dàng tiếp cận, khai thác và sử dụng.
+Xác định nội dung, hình thức phổ biến pháp luật phù hợp với từng nhóm đối tượng, địa bàn; biên soạn, đăng tải, phát hành rộng rãi tài liệu phổ biến và phối hợp với Bộ Tư pháp (Cục Phổ biến giáo dục pháp luật) để cập nhật trên Cổng Thông tin điện tử Phổ biến giáo dục pháp luật quốc gia http://pbgdpl.gov.vn.
+Tổ chức tuyên truyền, phổ biến giáo dục pháp luật về giao dịch điện tử bằng các hình thức cụ thể; phối hợp với các cơ quan báo chí tổ chức thực hiện các chuyên mục, chương trình, tin, bài phổ biến và các hình thức khác theo quy định của pháp luật về phổ biến, giáo dục pháp luật phù hợp với từng đối tượng cụ thể.
+Bộ Thông tin và Truyền thông chỉ đạo, hướng dẫn các cơ quan báo chí, truyền thông và mạng lưới truyền thanh cơ sở tăng cường thông tin, truyền thông, phổ biến pháp luật về giao dịch điện tử.
+Ngoài ra, theo Kế hoạch, sẽ triển khai thực hiện các kế hoạch, dự án, đề án, chương trình, hoạt động cấp quốc gia để triển khai chính sách phát triển giao dịch điện tử quy định tại Điều 4 Luật Giao dịch điện tử. Cụ thể: rà soát, tổ chức đánh giá việc thực hiện các chiến lược, chương trình, kế hoạch, đề án cấp quốc gia đang triển khai có liên quan đến thúc đẩy giao dịch điện tử; đề xuất sửa đổi, bổ sung hoặc xây dựng các nhiệm vụ, giải pháp mới (nếu cần thiết) để phù hợp với quy định của Luật./.

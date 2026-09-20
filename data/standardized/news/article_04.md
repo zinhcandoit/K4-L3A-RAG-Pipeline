@@ -1,0 +1,24 @@
+# Giảm thuế giá trị gia tăng từ 1/7/2025 đến hết 31/12/2026
+**Source:** https://baochinhphu.vn/giam-thue-gia-tri-gia-tang-tu-01-7-2025-den-het-31-12-2026-10225070118590677.htm
+**Crawled:** 2026-09-20T15:24:12.138713
+---
+Giảm thuế giá trị gia tăng từ 01/7/2025 đến hết 31/12/2026
+Giảm thuế giá trị gia tăng đối với các nhóm hàng hóa, dịch vụ đang áp dụng mức thuế suất 10%
+--------------------------------------------------------------------------------------------
+Nghị định nêu rõ, giảm thuế giá trị gia tăng đối với các nhóm hàng hóa, dịch vụ đang áp dụng mức thuế suất 10%, trừ nhóm hàng hóa, dịch vụ sau:
+a- Viễn thông, hoạt động tài chính, ngân hàng, chứng khoán, bảo hiểm, kinh doanh bất động sản, sản phẩm kim loại, sản phẩm khai khoáng (trừ than). Chi tiết tại Phụ lục I ban hành kèm theo Nghị định này.
+b- Sản phẩm hàng hóa và dịch vụ chịu thuế tiêu thụ đặc biệt (trừ xăng). Chi tiết tại Phụ lục II ban hành kèm theo Nghị định này.
+Nghị định cũng nêu rõ, việc giảm thuế giá trị gia tăng cho từng loại hàng hóa, dịch vụ được áp dụng thống nhất tại các khâu nhập khẩu, sản xuất, gia công, kinh doanh thương mại.
+Trường hợp hàng hóa, dịch vụ nêu tại các Phụ lục I và II ban hành kèm theo Nghị định này thuộc đối tượng không chịu thuế giá trị gia tăng hoặc đối tượng chịu thuế giá trị gia tăng 5% theo quy định của Luật Thuế giá trị gia tăng thì thực hiện theo quy định của Luật Thuế giá trị gia tăng và không được giảm thuế giá trị gia tăng.
+**Mức giảm thuế giá trị gia tăng**
+----------------------------------
+Về mức giảm thuế giá trị gia tăng, Nghị định nêu rõ: 1- Cơ sở kinh doanh tính thuế giá trị gia tăng theo phương pháp khấu trừ được áp dụng mức thuế suất thuế giá trị gia tăng 8% đối với hàng hóa, dịch vụ quy định nêu trên.
+2- Cơ sở kinh doanh (bao gồm cả hộ kinh doanh, cá nhân kinh doanh) tính thuế giá trị gia tăng theo phương pháp tỷ lệ % trên doanh thu được giảm 20% mức tỷ lệ % để tính thuế giá trị gia tăng khi thực hiện xuất hóa đơn đối với hàng hóa, dịch vụ được giảm thuế giá trị gia tăng quy định nêu trên.
+### Trình tự, thủ tục thực hiện
+Đối với cơ sở kinh doanh quy định tại điểm 1 nêu trên, khi lập hoá đơn giá trị gia tăng cung cấp hàng hóa, dịch vụ thuộc đối tượng giảm thuế giá trị gia tăng, tại dòng thuế suất thuế giá trị gia tăng ghi “8%"; tiền thuế giá trị gia tăng; tổng số tiền người mua phải thanh toán. Căn cứ hóa đơn giá trị gia tăng, cơ sở kinh doanh bán hàng hóa, dịch vụ kê khai thuế giá trị gia tăng đầu ra, cơ sở kinh doanh mua hàng hóa, dịch vụ kê khai khấu trừ thuế giá trị gia tăng đầu vào theo số thuế đã giảm ghi trên hóa đơn giá trị gia tăng.
+Đối với cơ sở kinh doanh quy định tại điểm 2 nêu trên, khi lập hoá đơn bán hàng cung cấp hàng hóa, dịch vụ thuộc đối tượng giảm thuế giá trị gia tăng, tại cột “Thành tiền” ghi đầy đủ tiền hàng hóa, dịch vụ trước khi giảm, tại dòng “Cộng tiền hàng hóa, dịch vụ" ghi theo số đã giảm 20% mức tỷ lệ % trên doanh thu, đồng thời ghi chú: “đã giảm... (số tiền) tương ứng 20% mức tỷ lệ % để tính thuế giá trị gia tăng theo Nghị quyết 204/2025/QH15".
+Trường hợp cơ sở kinh doanh theo quy định tại điểm 1 nêu trên, khi bán hàng hóa, cung cấp dịch vụ áp dụng các mức thuế suất khác nhau thì trên hóa đơn giá trị gia tăng phải ghi rõ thuế suất của từng hàng hóa, dịch vụ.
+Trường hợp cơ sở kinh doanh theo quy định tại điểm 2 nêu trên khi bán hàng hóa, cung cấp dịch vụ thì trên hóa đơn bán hàng phải ghi rõ số tiền được giảm.
+Trường hợp cơ sở kinh doanh đã lập hóa đơn và đã kê khai theo mức thuế suất hoặc mức tỷ lệ % để tính thuế giá trị gia tăng chưa được giảm theo quy định tại Nghị định này thì người bán và người mua xử lý hóa đơn đã lập theo quy định pháp luật về hóa đơn, chứng tử. Căn cứ vào hóa đơn sau khi xử lý, người bán kê khai điều chỉnh thuế đầu ra, người mua kê khai điều chỉnh thuế đầu vào (nếu có).
+[TOÀN VĂN NGHỊ ĐỊNH 174/2025/NĐ-CP](https://bcp.cdnchinhphu.vn/334894974524682240/2025/7/1/174-2025-nd-cp-1751372683836267987993.pdf "TOÀN VĂN NGHỊ ĐỊNH 174/2025/NĐ-CP").
+**Tuyết Thư**

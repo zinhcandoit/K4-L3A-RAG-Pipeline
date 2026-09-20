@@ -7,7 +7,7 @@
 QUỐC HỘI
 -------
 
-	
+
 
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Độc lập - Tự do - Hạnh phúc
@@ -15,7 +15,7 @@ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 
 Luật số: 59/2020/QH14
 
-	
+
 
 Hà Nội, ngày 17 tháng 6 năm 2020
 
@@ -4033,7 +4033,7 @@ Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Vi�
 
  
 
-	
+
 
 CHỦ TỊCH QUỐC HỘI
 
