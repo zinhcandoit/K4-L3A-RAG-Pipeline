@@ -31,11 +31,12 @@ CHUNKING_METHOD = "recursive"
 
 EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", "sentence_transformers")
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-m3")
-EMBEDDING_DIM = 1024
+EMBEDDING_DIM = 1536
 
 COLLECTION_NAME = "rag_documents"
 
 EMBED_BATCH_SIZE = 32
+API_BATCH_SIZE = 128  # số text mỗi request khi dùng provider API
 
 # Header do Task 3 ghi: "**Nguồn:** <url>" (legal) hoặc "**Source:** <url>" (news).
 URL_PATTERN = re.compile(r"^\*\*(?:Nguồn|Source):\*\*\s*(\S+)", re.M)
@@ -61,8 +62,16 @@ def embed_texts(texts: list[str]) -> list[list[float]]:
     if EMBEDDING_PROVIDER == "openai":
         from openai import OpenAI
 
-        response = OpenAI().embeddings.create(model=EMBEDDING_MODEL, input=texts)
-        return [item.embedding for item in response.data]
+        client = OpenAI()
+        vectors: list[list[float]] = []
+        # Chia batch để không vượt giới hạn token mỗi request
+        for start in range(0, len(texts), API_BATCH_SIZE):
+            response = client.embeddings.create(
+                model=EMBEDDING_MODEL,
+                input=texts[start : start + API_BATCH_SIZE],
+            )
+            vectors.extend(item.embedding for item in sorted(response.data, key=lambda d: d.index))
+        return vectors
 
     if EMBEDDING_PROVIDER == "gemini":
         from google import genai
