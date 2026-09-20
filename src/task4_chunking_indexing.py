@@ -20,13 +20,13 @@ load_dotenv()
 STANDARDIZED_DIR = Path(__file__).parent.parent / "data" / "standardized"
 CHROMA_DIR = Path(__file__).parent.parent / "chroma_db"
 
-CHUNK_SIZE = 500
+CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 50
 CHUNKING_METHOD = "recursive"
 
 EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", "sentence_transformers")
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-m3")
-EMBEDDING_DIM = 1024
+EMBEDDING_DIM = 1536
 
 COLLECTION_NAME = "rag_documents"
 

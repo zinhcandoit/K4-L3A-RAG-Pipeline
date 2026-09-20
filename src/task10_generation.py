@@ -30,11 +30,11 @@ Chỉ trả lời câu hỏi dựa trên Context được cung cấp dưới đ�
 Nếu Context không chứa đủ bằng chứng để trả lời, hãy thông báo: "Tôi không thể xác minh thông tin này từ nguồn hiện có."
 
 BẮT BUỘC trả lời theo đúng định dạng sau:
-<Nội dung câu trả lời đầy đủ, chính xác, có đánh dấu số trích dẫn [1], [2] ở từng khẳng định>
+Nội dung câu trả lời đầy đủ, chính xác, có đánh dấu số trích dẫn [1], [2] ở từng khẳng định.
 
 Nguồn:
-[1] <file/Source>\n
-[2] <file/Source>"""
+[1] file/Source\n
+[2] file/Source"""
 
 
 def reorder_for_llm(chunks: list[dict]) -> list[dict]:
@@ -85,12 +85,12 @@ def call_llm(system_prompt: str, user_message: str) -> str:
                 completion = client.chat.completions.create(
                     model=model,
                     messages=messages,
-                    temperature=1,
+                    temperature=0.1,
                     top_p=0.95,
-                    max_tokens=16384,
+                    max_tokens=3072,
                     extra_body={
-                        "chat_template_kwargs": {"enable_thinking": True},
-                        "reasoning_budget": 16384,
+                        "chat_template_kwargs": {"enable_thinking": False},
+                        "reasoning_budget": 0,
                     },
                     stream=True,
                 )
@@ -122,7 +122,7 @@ def call_llm(system_prompt: str, user_message: str) -> str:
             from google import genai
             api_key = os.getenv("GEMINI_API_KEY", "")
             client = genai.Client(api_key=api_key)
-            model = model_name or "gemini-2.5-flash"
+            model = model_name or "gemini-3.6-flash"
             response = client.models.generate_content(
                 model=model,
                 contents=f"{system_prompt}\n\n{user_message}",
