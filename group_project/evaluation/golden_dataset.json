@@ -1,0 +1,114 @@
+[
+  {
+    "id": "gd-01",
+    "question": "Hồ sơ đăng ký thành lập hộ kinh doanh gồm những giấy tờ gì?",
+    "expected_answer": "Hồ sơ đăng ký hộ kinh doanh bao gồm Giấy đề nghị đăng ký hộ kinh doanh, và trong trường hợp nhóm cá nhân tham gia hộ kinh doanh thì có thêm biên bản họp nhóm cá nhân về việc thành lập hộ kinh doanh.",
+    "expected_context": "Giấy đề nghị đăng ký hộ kinh doanh",
+    "source_file": "nd-168-2025-dang-ky-doanh-nghiep-ho-kinh-doanh.md"
+  },
+  {
+    "id": "gd-02",
+    "question": "Nộp hồ sơ đăng ký thành lập hộ kinh doanh ở cơ quan nào?",
+    "expected_answer": "Chủ hộ kinh doanh hoặc người được ủy quyền gửi hồ sơ đến Cơ quan đăng ký kinh doanh cấp xã nơi hộ kinh doanh đăng ký trụ sở.",
+    "expected_context": "Cơ quan đăng ký kinh doanh cấp xã nơi hộ kinh doanh đăng ký trụ sở",
+    "source_file": "nd-168-2025-dang-ky-doanh-nghiep-ho-kinh-doanh.md"
+  },
+  {
+    "id": "gd-03",
+    "question": "Tên hộ kinh doanh có được trùng với hộ khác không?",
+    "expected_answer": "Tên tiếng Việt của hộ kinh doanh không được trùng với tên tiếng Việt của hộ kinh doanh đã đăng ký trong phạm vi cấp xã, trừ những hộ đã chấm dứt hoạt động. Tên trùng là tên viết hoàn toàn giống nhau, không kể chữ hoa hay chữ thường.",
+    "expected_context": "không được trùng với tên tiếng Việt của hộ kinh doanh đã đăng ký trong phạm vi cấp xã",
+    "source_file": "nd-168-2025-dang-ky-doanh-nghiep-ho-kinh-doanh.md"
+  },
+  {
+    "id": "gd-04",
+    "question": "Một hộ kinh doanh được mở bao nhiêu địa điểm kinh doanh?",
+    "expected_answer": "Một hộ kinh doanh có thể có nhiều địa điểm kinh doanh trong phạm vi cả nước. Địa điểm kinh doanh là nơi hộ tiến hành hoạt động kinh doanh cụ thể ngoài trụ sở, và hộ phải thông báo cho cơ quan quản lý thuế cùng cơ quan quản lý thị trường nơi đặt địa điểm.",
+    "expected_context": "Một hộ kinh doanh có thể có nhiều địa điểm kinh doanh trong phạm vi cả nước",
+    "source_file": "nd-168-2025-dang-ky-doanh-nghiep-ho-kinh-doanh.md"
+  },
+  {
+    "id": "gd-05",
+    "question": "Khi Giấy chứng nhận đăng ký hộ kinh doanh ghi sai so với hồ sơ thì bao lâu được cấp lại?",
+    "expected_answer": "Cơ quan đăng ký kinh doanh cấp xã gửi thông báo hiệu đính và cấp lại Giấy chứng nhận đăng ký hộ kinh doanh trong thời hạn 03 ngày làm việc kể từ ngày gửi thông báo.",
+    "expected_context": "trong thời hạn 03 ngày làm việc",
+    "source_file": "nd-168-2025-dang-ky-doanh-nghiep-ho-kinh-doanh.md"
+  },
+  {
+    "id": "gd-06",
+    "question": "Nghị định 68/2026/NĐ-CP có bao nhiêu chương và bao nhiêu điều?",
+    "expected_answer": "Nghị định 68/2026/NĐ-CP quy định về chính sách thuế và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh gồm 5 Chương, 19 Điều.",
+    "expected_context": "gồm 5 Chương, 19 Điều",
+    "source_file": "nd-68-2026-chinh-sach-thue-ho-kinh-doanh.md"
+  },
+  {
+    "id": "gd-07",
+    "question": "Ngưỡng doanh thu năm nào được Nghị định 68/2026 dùng để quy định riêng việc khai thuế?",
+    "expected_answer": "Nghị định 68/2026/NĐ-CP có quy định riêng về khai thuế, nộp thuế giá trị gia tăng và thuế thu nhập cá nhân đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng.",
+    "expected_context": "trên 500 triệu đồng",
+    "source_file": "nd-68-2026-chinh-sach-thue-ho-kinh-doanh.md"
+  },
+  {
+    "id": "gd-08",
+    "question": "Hộ kinh doanh không chịu thuế giá trị gia tăng thì thông báo doanh thu theo mẫu nào?",
+    "expected_answer": "Theo Điều 4 Thông tư 18/2026/TT-BTC, hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng và không phải nộp thuế thu nhập cá nhân thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo Mẫu số 01/TKN-CNKD.",
+    "expected_context": "Mẫu số 01/TKN-CNKD",
+    "source_file": "tt-18-2026-btc-thu-tuc-thue-ho-kinh-doanh.md"
+  },
+  {
+    "id": "gd-09",
+    "question": "Biểu mẫu dùng trong đăng ký hộ kinh doanh nằm ở phụ lục nào của Thông tư 68/2025/TT-BTC?",
+    "expected_answer": "Biểu mẫu sử dụng trong đăng ký hộ kinh doanh được quy định tại Phụ lục 2 ban hành kèm theo Thông tư 68/2025/TT-BTC.",
+    "expected_context": "Biểu mẫu sử dụng trong đăng ký hộ kinh doanh",
+    "source_file": "tt-68-2025-btc-bieu-mau-dang-ky-ho-kinh-doanh.md"
+  },
+  {
+    "id": "gd-10",
+    "question": "Hộ kinh doanh vay vốn làm dự án xanh được hỗ trợ lãi suất bao nhiêu?",
+    "expected_answer": "Theo Điều 9 Nghị quyết 198/2025/QH15, doanh nghiệp thuộc khu vực kinh tế tư nhân, hộ kinh doanh và cá nhân kinh doanh được Nhà nước hỗ trợ lãi suất 2%/năm khi vay vốn để thực hiện các dự án xanh, tuần hoàn và áp dụng khung tiêu chuẩn ESG.",
+    "expected_context": "hỗ trợ lãi suất 2%/năm khi vay vốn để thực hiện các dự án xanh",
+    "source_file": "nq-198-2025-qh15-kinh-te-tu-nhan.md"
+  },
+  {
+    "id": "gd-11",
+    "question": "Hộ kinh doanh tuân thủ tốt pháp luật thì được ưu đãi gì về kiểm tra?",
+    "expected_answer": "Nghị quyết 198/2025/QH15 quy định miễn kiểm tra thực tế tại doanh nghiệp, hộ kinh doanh, cá nhân kinh doanh đối với những đối tượng tuân thủ tốt quy định của pháp luật.",
+    "expected_context": "Miễn kiểm tra thực tế tại doanh nghiệp, hộ kinh doanh, cá nhân kinh doanh",
+    "source_file": "nq-198-2025-qh15-kinh-te-tu-nhan.md"
+  },
+  {
+    "id": "gd-12",
+    "question": "Lệ phí môn bài với hộ kinh doanh chấm dứt từ khi nào?",
+    "expected_answer": "Lệ phí môn bài với hộ kinh doanh chấm dứt từ ngày 1/1/2026, theo Nghị quyết 198 của Quốc hội về hỗ trợ thuế phí cho kinh tế tư nhân.",
+    "expected_context": "lệ phí môn bài với hộ kinh doanh sẽ chấm dứt từ 1/1/2026",
+    "source_file": "bo-thue-khoan-ho-kinh-doanh-tinh-thue-the-nao-tu-2026-4992081.md"
+  },
+  {
+    "id": "gd-13",
+    "question": "Khác biệt cơ bản giữa hộ nộp thuế khoán và hộ kê khai là gì?",
+    "expected_answer": "Cách tính thuế về cơ bản giống nhau; điểm khác biệt duy nhất nằm ở doanh thu: hộ khoán dùng doanh thu ước tính ổn định từ đầu năm, còn hộ kê khai dùng số thực tế phát sinh.",
+    "expected_context": "hộ khoán sử dụng doanh thu ước tính ổn định từ đầu năm",
+    "source_file": "bo-thue-khoan-ho-kinh-doanh-tinh-thue-the-nao-tu-2026-4992081.md"
+  },
+  {
+    "id": "gd-14",
+    "question": "Hộ kinh doanh chuyển từ khoán sang kê khai có phải trả phí hay mua phần mềm không?",
+    "expected_answer": "Không. Mọi thủ tục cho hộ kinh doanh chuyển từ hình thức khoán sang kê khai đều hoàn toàn miễn phí, không thu thêm lệ phí và không bắt buộc hộ phải mua phần mềm.",
+    "expected_context": "hoàn toàn miễn phí",
+    "source_file": "ho-kinh-doanh-chuyen-sang-ke-khai-khong-can-mua-phan-mem-nop-le-phi-4958714.md"
+  },
+  {
+    "id": "gd-15",
+    "question": "Hộ đang dùng hóa đơn điện tử thông thường có phải chuyển sang hóa đơn từ máy tính tiền không?",
+    "expected_answer": "Có. Nếu chưa khởi tạo hóa đơn từ máy tính tiền thì hộ kinh doanh cần chuyển sang theo đúng quy định.",
+    "expected_context": "nếu chưa khởi tạo hóa đơn từ máy tính tiền thì cần chuyển sang theo đúng quy định",
+    "source_file": "tu-khoan-sang-ke-khai-ho-kinh-doanh-hoi-co-quan-thue-tra-loi-102250612170705652.md"
+  },
+  {
+    "id": "gd-16",
+    "question": "Chế độ kế toán cho hộ kinh doanh được điều chỉnh theo hướng nào khi bỏ thuế khoán?",
+    "expected_answer": "Chế độ kế toán cho doanh nghiệp siêu nhỏ và hộ kinh doanh được điều chỉnh theo hướng đơn giản, không phát sinh thêm nhân sự kế toán chuyên trách.",
+    "expected_context": "chế độ kế toán cho doanh nghiệp siêu nhỏ và hộ kinh doanh cũng được điều chỉnh theo hướng đơn giản",
+    "source_file": "xoa-bo-thue-khoan-chuyen-sang-ke-khai-nganh-thue-cam-tay-chi-viec-ho-tro-ho-kinh.md"
+  }
+]

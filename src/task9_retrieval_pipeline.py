@@ -37,10 +37,15 @@ def retrieve(
 ) -> list[dict]:
     """Trả về hybrid hoặc pageindex SearchResult."""
     dense = semantic_search(query, top_k=top_k * 2)
-    sparse = lexical_search(query, top_k=top_k * 2)
 
-    # RRF chạy đúng một lần trong toàn pipeline
-    hybrid = rerank_rrf([dense, sparse], top_k=top_k) if use_reranking else dense[:top_k]
+    if use_reranking:
+        sparse = lexical_search(query, top_k=top_k * 2)
+        # RRF chạy đúng một lần trong toàn pipeline
+        hybrid = rerank_rrf([dense, sparse], top_k=top_k)
+    else:
+        # Dense-only: không gọi BM25, nếu không baseline A/B phải trả chi phí
+        # lexical mà nó không hề dùng, làm số latency so sánh vô nghĩa.
+        hybrid = dense[:top_k]
 
     # Quyết định fallback dựa trên cosine score gốc, không phải RRF score
     best_dense_score = dense[0]["score"] if dense else 0.0
