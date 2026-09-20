@@ -5,42 +5,64 @@ Dùng cùng corpus chunks với Task 5. BM25 phù hợp với từ khóa chính 
 liệu và tên riêng. Output phải theo SearchResult và sort score giảm dần.
 """
 
+import math
+from rank_bm25 import BM25Okapi
+
 
 CORPUS: list[dict] = []
 
 
-def build_bm25_index(corpus: list[dict]):
-    """Tạo BM25 index từ cùng corpus chunks của Task 4."""
-    # TODO: Tokenize và tạo BM25 index.
-    #
-    # from rank_bm25 import BM25Okapi
-    # tokenized = [item["content"].lower().split() for item in corpus]
-    # return BM25Okapi(tokenized)
-    raise NotImplementedError("Implement build_bm25_index")
+class BM25OkapiWithFloor(BM25Okapi):
+    """Kế thừa BM25Okapi với Lucene-style non-negative IDF floor để hoạt động chính xác trên corpus nhỏ."""
+
+    def _calc_idf(self, nd):
+        super()._calc_idf(nd)
+        for word in self.idf:
+            if self.idf[word] <= 0:
+                # Chuẩn Lucene: log((N - n + 0.5) / (n + 0.5) + 1.0)
+                self.idf[word] = math.log((self.corpus_size - nd[word] + 0.5) / (nd[word] + 0.5) + 1.0)
+
+
+def _ensure_corpus() -> None:
+    """Tự động tải CORPUS nếu chưa có."""
+    global CORPUS
+    if not CORPUS:
+        from .task4_chunking_indexing import chunk_documents, load_documents
+        docs = load_documents()
+        CORPUS = chunk_documents(docs)
+
+
+def build_bm25_index(corpus: list[dict]) -> BM25Okapi:
+    """Tạo BM25 index từ danh sách chunks."""
+    tokenized = [item["content"].lower().split() for item in corpus]
+    return BM25OkapiWithFloor(tokenized)
 
 
 def lexical_search(query: str, top_k: int = 10) -> list[dict]:
     """Trả về BM25 SearchResult theo score giảm dần."""
-    # TODO: Tính BM25 scores và map lại corpus.
-    #
-    # import numpy as np
-    # bm25 = build_bm25_index(CORPUS)
-    # scores = bm25.get_scores(query.lower().split())
-    # indices = np.argsort(scores)[::-1][:top_k]
-    # results = []
-    # for index in indices:
-    #     if scores[index] <= 0:
-    #         continue
-    #     item = CORPUS[index]
-    #     results.append({
-    #         "id": item["id"],
-    #         "content": item["content"],
-    #         "score": float(scores[index]),
-    #         "metadata": item["metadata"],
-    #         "retrieval_method": "bm25",
-    #     })
-    # return results
-    raise NotImplementedError("Implement lexical_search")
+    _ensure_corpus()
+    if not CORPUS or top_k <= 0 or not query.strip():
+        return []
+
+    bm25 = build_bm25_index(CORPUS)
+    tokenized_query = query.lower().split()
+    scores = bm25.get_scores(tokenized_query)
+
+    ranked_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)
+    results = []
+    for index in ranked_indices:
+        item = CORPUS[index]
+        results.append({
+            "id": item["id"],
+            "content": item["content"],
+            "score": float(scores[index]),
+            "metadata": item["metadata"],
+            "retrieval_method": "bm25",
+        })
+        if len(results) >= top_k:
+            break
+
+    return results
 
 
 if __name__ == "__main__":

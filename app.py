@@ -1,12 +1,13 @@
 import streamlit as st
 from dotenv import load_dotenv
 
+from src.task10_generation import generate_with_citation, generate_with_bge
 
 load_dotenv()
 
 st.set_page_config(
-    page_title="RAG Chatbot",
-    page_icon="",
+    page_title="Hệ thống Hỏi Đáp Văn Bản Pháp Luật & Tin Tức (RAG)",
+    page_icon="⚖️",
     layout="wide",
 )
 
@@ -14,19 +15,38 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
 with st.sidebar:
-    st.title("RAG Chatbot")
-    st.caption("Thay mô tả theo đề tài của nhóm")
-    top_k = st.slider("Số chunks", 3, 10, 5)
+    st.title("⚙️ Cấu hình RAG")
+    st.caption("Pipeline RAG kết hợp Hybrid Retrieval & Reranker")
 
-st.title("RAG Chatbot")
-st.caption("Thay tiêu đề và hướng dẫn sử dụng")
+    rerank_mode = st.radio(
+        "Mô hình Rerank:",
+        ["BAAI/bge-reranker-v2-m3", "RRF (Reciprocal Rank Fusion)"],
+        index=0,
+    )
+    top_k = st.slider("Số lượng Chunks truy vấn (Top-K)", min_value=1, max_value=10, value=5)
+
+    st.markdown("---")
+    if st.button("🗑️ Xoá lịch sử hội thoại"):
+        st.session_state.messages = []
+        st.rerun()
+
+st.title("⚖️ Trợ Lý Pháp Luật & Chính Sách Doanh Nghiệp")
+st.caption("Tra cứu và giải đáp dựa trên dữ liệu văn bản pháp luật và tin tức chính thống đã chuẩn hoá.")
 
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
-        # TODO: Hiển thị sources và retrieval score.
+        if "sources" in message and message["sources"]:
+            with st.expander(f"📚 Nguồn trích dẫn ({len(message['sources'])} chunks) — Phương pháp: {message.get('retrieval_source', 'N/A')}"):
+                for idx, src in enumerate(message["sources"], 1):
+                    meta = src.get("metadata", {})
+                    st.markdown(
+                        f"**{idx}. {meta.get('title', 'Tài liệu')}** (`{meta.get('source', '')}`)  \n"
+                        f"- **Điểm số:** `{src.get('score', 0):.4f}` | **Phương pháp:** `{src.get('retrieval_method', '')}`  \n"
+                        f"- **Nội dung:** {src.get('content', '')}"
+                    )
 
-query = st.chat_input("Nhập câu hỏi...")
+query = st.chat_input("Nhập câu hỏi pháp luật hoặc chính sách...")
 
 if query:
     st.session_state.messages.append({"role": "user", "content": query})
@@ -35,11 +55,31 @@ if query:
         st.markdown(query)
 
     with st.chat_message("assistant"):
-        # TODO: Gọi generate_with_citation(query, top_k).
-        answer = "TODO: Itegration RAG Pipeline hêre"
-        sources = []
-        st.markdown(answer)
+        with st.spinner("Đang tra cứu tài liệu và sinh câu trả lời..."):
+            if "bge-reranker" in rerank_mode.lower():
+                result = generate_with_bge(query, top_k=top_k)
+            else:
+                result = generate_with_citation(query, top_k=top_k)
 
-        # TODO: Hiển thị sources và citation.
+            answer = result["answer"]
+            sources = result.get("sources", [])
+            retrieval_source = result.get("retrieval_source", "none")
 
-    # TODO: Lưu answer và sources vào session state.
+            st.markdown(answer)
+
+            if sources:
+                with st.expander(f"📚 Nguồn trích dẫn ({len(sources)} chunks) — Phương pháp: {retrieval_source}"):
+                    for idx, src in enumerate(sources, 1):
+                        meta = src.get("metadata", {})
+                        st.markdown(
+                            f"**{idx}. {meta.get('title', 'Tài liệu')}** (`{meta.get('source', '')}`)  \n"
+                            f"- **Điểm số:** `{src.get('score', 0):.4f}` | **Phương pháp:** `{src.get('retrieval_method', '')}`  \n"
+                            f"- **Nội dung:** {src.get('content', '')}"
+                        )
+
+    st.session_state.messages.append({
+        "role": "assistant",
+        "content": answer,
+        "sources": sources,
+        "retrieval_source": retrieval_source,
+    })

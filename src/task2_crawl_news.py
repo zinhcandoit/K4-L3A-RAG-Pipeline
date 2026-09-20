@@ -15,13 +15,7 @@ Cài browser trước khi chạy:
 
 import asyncio
 import json
-import sys
 from pathlib import Path
-
-# Windows console mặc định dùng cp1252, không hỗ trợ tiếng Việt
-if sys.stdout.encoding != "utf-8":
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "landing" / "news"
