@@ -1,12 +1,13 @@
+import os
 import streamlit as st
 from dotenv import load_dotenv
 
-from src.task10_generation import generate_with_citation, generate_with_bge
+from src.task10_generation import generate_with_citation, generate_with_jina
 
 load_dotenv()
 
 st.set_page_config(
-    page_title="Hệ thống Hỏi Đáp Văn Bản Pháp Luật & Tin Tức (RAG)",
+    page_title="Hệ thống Hỏi Đáp Pháp Luật & Chính Sách (RAG)",
     page_icon="⚖️",
     layout="wide",
 )
@@ -14,16 +15,21 @@ st.set_page_config(
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
+jina_key = os.getenv("JINA_API_KEY", "")
+
 with st.sidebar:
     st.title("⚙️ Cấu hình RAG")
     st.caption("Pipeline RAG kết hợp Hybrid Retrieval & Reranker")
 
     rerank_mode = st.radio(
         "Mô hình Rerank:",
-        ["BAAI/bge-reranker-v2-m3", "RRF (Reciprocal Rank Fusion)"],
+        ["RRF (Reciprocal Rank Fusion)", "Jina Reranker API (jina-reranker-v2-base-multilingual)"],
         index=0,
     )
     top_k = st.slider("Số lượng Chunks truy vấn (Top-K)", min_value=1, max_value=10, value=5)
+
+    if "Jina" in rerank_mode and not jina_key:
+        st.warning("⚠️ Chưa cấu hình JINA_API_KEY trong .env. Hệ thống sẽ tự động fallback sang thứ hạng gốc/RRF.")
 
     st.markdown("---")
     if st.button("🗑️ Xoá lịch sử hội thoại"):
@@ -56,8 +62,8 @@ if query:
 
     with st.chat_message("assistant"):
         with st.spinner("Đang tra cứu tài liệu và sinh câu trả lời..."):
-            if "bge-reranker" in rerank_mode.lower():
-                result = generate_with_bge(query, top_k=top_k)
+            if "Jina" in rerank_mode:
+                result = generate_with_jina(query, top_k=top_k)
             else:
                 result = generate_with_citation(query, top_k=top_k)
 

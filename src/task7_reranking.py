@@ -1,30 +1,24 @@
 """
-Task 7 — Reciprocal Rank Fusion & Reranking.
+Task 7 — Reciprocal Rank Fusion & Jina Reranker.
 
 RRF gộp nhiều bảng xếp hạng mà không cộng trực tiếp cosine score với BM25
 score. Công thức: RRF(d) = sum(1 / (k + rank)), rank bắt đầu từ 1.
 
 Lưu ý: RRF score chỉ phản ánh thứ hạng, không dùng để quyết định fallback.
 
-Đồng thời hỗ trợ reranker tiên tiến BAAI/bge-reranker-v2-m3 qua hàm `rerank_bge`.
+Đồng thời hỗ trợ Jina AI Reranker API (jina-reranker-v2-base-multilingual)
+siêu nhanh, hỗ trợ tiếng Việt cực mạnh qua Cloud API.
 """
 
 import os
+import requests
 from dotenv import load_dotenv
 
 load_dotenv()
 
-_bge_reranker = None
-RERANKER_MODEL = os.getenv("RERANKER_MODEL", "BAAI/bge-reranker-v2-m3")
-
-
-def get_bge_reranker():
-    """Khởi tạo lazy mô hình CrossEncoder BAAI/bge-reranker-v2-m3."""
-    global _bge_reranker
-    if _bge_reranker is None:
-        from sentence_transformers import CrossEncoder
-        _bge_reranker = CrossEncoder(RERANKER_MODEL)
-    return _bge_reranker
+JINA_API_KEY = os.getenv("JINA_API_KEY", "")
+JINA_RERANK_URL = "https://api.jina.ai/v1/rerank"
+JINA_MODEL = "jina-reranker-v2-base-multilingual"
 
 
 def rerank_rrf(
@@ -57,12 +51,12 @@ def rerank_rrf(
     return results
 
 
-def rerank_bge(query: str, items: list[dict], top_k: int = 5) -> list[dict]:
-    """Rerank các chunk ứng viên bằng mô hình BAAI/bge-reranker-v2-m3."""
+def rerank_jina(query: str, items: list[dict], top_k: int = 5) -> list[dict]:
+    """Rerank các chunk ứng viên bằng Jina Reranker Cloud API (nhanh, nhẹ, chính xác)."""
     if not items or top_k <= 0 or not query.strip():
         return []
 
-    # Loại bỏ duplicate item id trước khi rerank
+    # Loại bỏ duplicate item id trước khi gửi API
     unique_items = []
     seen_ids = set()
     for item in items:
@@ -70,19 +64,40 @@ def rerank_bge(query: str, items: list[dict], top_k: int = 5) -> list[dict]:
             seen_ids.add(item["id"])
             unique_items.append(item)
 
-    model = get_bge_reranker()
-    pairs = [[query, item["content"]] for item in unique_items]
-    raw_scores = model.predict(pairs)
+    api_key = os.getenv("JINA_API_KEY", JINA_API_KEY)
+    if not api_key:
+        print("[Warning] JINA_API_KEY chưa được cấu hình. Fallback về RRF/thứ hạng gốc.")
+        return unique_items[:top_k]
 
-    scored_results = []
-    for item, score in zip(unique_items, raw_scores):
-        res = item.copy()
-        res["score"] = float(score)
-        res["retrieval_method"] = "hybrid"
-        scored_results.append(res)
+    try:
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {api_key}",
+        }
+        payload = {
+            "model": JINA_MODEL,
+            "query": query,
+            "documents": [item["content"] for item in unique_items],
+            "top_n": min(top_k, len(unique_items)),
+        }
+        response = requests.post(JINA_RERANK_URL, headers=headers, json=payload, timeout=10)
+        response.raise_for_status()
+        data = response.json()
 
-    scored_results.sort(key=lambda x: x["score"], reverse=True)
-    return scored_results[:top_k]
+        results = []
+        for res_item in data.get("results", []):
+            original_idx = res_item["index"]
+            item = unique_items[original_idx].copy()
+            item["score"] = float(res_item.get("relevance_score", 0.0))
+            item["retrieval_method"] = "hybrid"
+            results.append(item)
+
+        results.sort(key=lambda x: x["score"], reverse=True)
+        return results[:top_k]
+
+    except Exception as e:
+        print(f"[Warning] Lỗi khi gọi Jina Reranker API ({e}). Giữ nguyên thứ tự ứng viên.")
+        return unique_items[:top_k]
 
 
 if __name__ == "__main__":

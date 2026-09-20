@@ -14,7 +14,7 @@ Nếu context không đủ hoặc provider lỗi, trả safe refusal; không b�
 import os
 from dotenv import load_dotenv
 
-from .task9_retrieval_pipeline import retrieve, retrieve_with_bge
+from .task9_retrieval_pipeline import retrieve, retrieve_with_jina
 
 load_dotenv()
 
@@ -26,9 +26,15 @@ LLM_PROVIDER = os.getenv("LLM_PROVIDER", "openai").lower()
 LLM_MODEL = os.getenv("LLM_MODEL", "")
 
 SYSTEM_PROMPT = """Bạn là trợ lý hỏi đáp văn bản pháp luật và tin tức chính thống.
-Chỉ trả lời dựa trên context được cung cấp dưới đây.
-Mỗi khẳng định hoặc thông tin trả lời phải trích dẫn nguồn (Title hoặc Source) tương ứng.
-Nếu context không chứa đủ thông tin để trả lời câu hỏi, hãy trung thực thông báo: "Tôi không thể xác minh thông tin này từ nguồn hiện có." và tuyệt đối không bịa đặt thông tin."""
+Chỉ trả lời câu hỏi dựa trên Context được cung cấp dưới đây, tuyệt đối không bịa đặt thông tin.
+Nếu Context không chứa đủ bằng chứng để trả lời, hãy thông báo: "Tôi không thể xác minh thông tin này từ nguồn hiện có."
+
+BẮT BUỘC trả lời theo đúng định dạng sau:
+<Nội dung câu trả lời đầy đủ, chính xác, có đánh dấu số trích dẫn [1], [2] ở từng khẳng định>
+
+Nguồn:
+[1] <Tựa/Title> - <file/Source> - <url>
+[2] <Tựa/Title> - <file/Source> - <url>"""
 
 
 def reorder_for_llm(chunks: list[dict]) -> list[dict]:
@@ -41,14 +47,15 @@ def reorder_for_llm(chunks: list[dict]) -> list[dict]:
 
 
 def format_context(chunks: list[dict]) -> str:
-    """Tạo context có title và source label rõ ràng cho LLM trích dẫn."""
+    """Tạo context có title, source và url rõ ràng cho LLM trích dẫn."""
     parts = []
     for index, chunk in enumerate(chunks, 1):
         metadata = chunk.get("metadata", {})
         title = metadata.get("title", f"Doc-{index}")
         source = metadata.get("source", "unknown")
+        url = metadata.get("url") or "Không có url"
         parts.append(
-            f"[Document {index} | Title: {title} | Source: {source}]\n{chunk.get('content', '')}"
+            f"[{index}] Title: {title} | Source: {source} | URL: {url}\n{chunk.get('content', '')}"
         )
     return "\n\n---\n\n".join(parts)
 
@@ -67,17 +74,49 @@ def call_llm(system_prompt: str, user_message: str) -> str:
                 base_url = "https://integrate.api.nvidia.com/v1"
 
             client = OpenAI(api_key=api_key, base_url=base_url)
-            model = model_name or "gpt-4o-mini"
-            response = client.chat.completions.create(
-                model=model,
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_message},
-                ],
-                temperature=TEMPERATURE,
-                top_p=TOP_P,
-            )
-            return response.choices[0].message.content or ""
+            model = model_name or ("nvidia/nemotron-3.5-lightning-30b-a3b" if api_key.startswith("nvapi-") else "gpt-4o-mini")
+
+            messages = [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_message},
+            ]
+
+            if api_key.startswith("nvapi-"):
+                completion = client.chat.completions.create(
+                    model=model,
+                    messages=messages,
+                    temperature=1,
+                    top_p=0.95,
+                    max_tokens=16384,
+                    extra_body={
+                        "chat_template_kwargs": {"enable_thinking": True},
+                        "reasoning_budget": 16384,
+                    },
+                    stream=True,
+                )
+                answer_chunks = []
+                reasoning_chunks = []
+                for chunk in completion:
+                    if not chunk.choices:
+                        continue
+                    delta = chunk.choices[0].delta
+                    if getattr(delta, "content", None) is not None:
+                        answer_chunks.append(delta.content)
+                    if getattr(delta, "reasoning_content", None) is not None:
+                        reasoning_chunks.append(delta.reasoning_content)
+
+                ans = "".join(answer_chunks).strip()
+                if not ans and reasoning_chunks:
+                    ans = "".join(reasoning_chunks).strip()
+                return ans
+            else:
+                response = client.chat.completions.create(
+                    model=model,
+                    messages=messages,
+                    temperature=TEMPERATURE,
+                    top_p=TOP_P,
+                )
+                return response.choices[0].message.content or ""
 
         elif provider == "gemini":
             from google import genai
@@ -137,9 +176,9 @@ def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:
     }
 
 
-def generate_with_bge(query: str, top_k: int = TOP_K) -> dict:
-    """Generation sử dụng BAAI/bge-reranker-v2-m3 reranker."""
-    chunks = retrieve_with_bge(query, top_k=top_k)
+def generate_with_jina(query: str, top_k: int = TOP_K) -> dict:
+    """Generation sử dụng Jina AI Reranker API (siêu nhanh, nhẹ, chính xác)."""
+    chunks = retrieve_with_jina(query, top_k=top_k)
     if not chunks:
         return {
             "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",

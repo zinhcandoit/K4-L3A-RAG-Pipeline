@@ -10,6 +10,8 @@ from rank_bm25 import BM25Okapi
 
 
 CORPUS: list[dict] = []
+_CACHED_BM25 = None
+_CACHED_CORPUS_LEN = 0
 
 
 class BM25OkapiWithFloor(BM25Okapi):
@@ -39,12 +41,18 @@ def build_bm25_index(corpus: list[dict]) -> BM25Okapi:
 
 
 def lexical_search(query: str, top_k: int = 10) -> list[dict]:
-    """Trả về BM25 SearchResult theo score giảm dần."""
+    """Trả về BM25 SearchResult theo score giảm dần với cache index."""
+    global _CACHED_BM25, _CACHED_CORPUS_LEN
     _ensure_corpus()
     if not CORPUS or top_k <= 0 or not query.strip():
         return []
 
-    bm25 = build_bm25_index(CORPUS)
+    # Cache lại đối tượng BM25 nếu CORPUS không thay đổi để tránh tokenize lại mỗi query
+    if _CACHED_BM25 is None or len(CORPUS) != _CACHED_CORPUS_LEN:
+        _CACHED_BM25 = build_bm25_index(CORPUS)
+        _CACHED_CORPUS_LEN = len(CORPUS)
+
+    bm25 = _CACHED_BM25
     tokenized_query = query.lower().split()
     scores = bm25.get_scores(tokenized_query)
 
