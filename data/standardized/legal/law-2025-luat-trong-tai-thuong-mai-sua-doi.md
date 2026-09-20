@@ -7,15 +7,18 @@
 QUỐC HỘI
 -------
 
-
+	
 
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Độc lập - Tự do - Hạnh phúc
 ---------------
 
+
+
+
 Luật số: 79/2025/QH15
 
-
+	
 
 Hà Nội, ngày 24 tháng 6 năm 2025 
 
@@ -301,8 +304,11 @@ Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Vi�
 
  
 
-
+	
 
 CHỦ TỊCH QUỐC HỘI
+
+
+
 
 Trần Thanh Mẫn

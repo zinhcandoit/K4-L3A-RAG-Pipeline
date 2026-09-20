@@ -11,15 +11,18 @@
 QUỐC HỘI
 --------
 
-
+	
 
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Độc lập - Tự do - Hạnh phúc
 ---------------
 
+
+
+
 Luật số: 45/2024/QH15
 
-
+	
 
 Hà Nội, ngày 23 tháng 11 năm 2024
 
@@ -2115,8 +2118,12 @@ Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Vi�
 
 Epas: 114331
 
-
+	
 
 CHỦ TỊCH QUỐC HỘI
+
+
+
+
 
 Trần Thanh Mẫn
