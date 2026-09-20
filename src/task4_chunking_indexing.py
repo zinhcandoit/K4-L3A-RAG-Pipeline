@@ -220,21 +220,30 @@ def embed_chunks(chunks: list[dict]) -> list[dict]:
         cached_count = len(chunks) - len(missing)
         print(f"Embedding {len(missing)} chunks ({cached_count} loaded from cache)...")
         batch_size = 20
-        for i in range(0, len(missing), batch_size):
-            batch = missing[i : i + batch_size]
-            batch_texts = [item[0]["content"] for item in batch]
-            vectors = embed_texts(batch_texts)
-            for (chunk, h), vector in zip(batch, vectors):
-                chunk["embedding"] = vector
-                cache[h] = vector
-            # Lưu cache từng batch
-            try:
-                cache_path.write_text(json.dumps(cache), encoding="utf-8")
-            except Exception:
-                pass
-            print(f"Embedded {min(i + batch_size, len(missing))}/{len(missing)} chunks")
+        try:
+            for i in range(0, len(missing), batch_size):
+                batch = missing[i : i + batch_size]
+                batch_texts = [item[0]["content"] for item in batch]
+                vectors = embed_texts(batch_texts)
+                for (chunk, h), vector in zip(batch, vectors):
+                    chunk["embedding"] = vector
+                    cache[h] = vector
+                # Lưu cache từng batch
+                try:
+                    cache_path.write_text(json.dumps(cache), encoding="utf-8")
+                except Exception:
+                    pass
+                print(f"Embedded {min(i + batch_size, len(missing))}/{len(missing)} chunks")
+        except Exception as e:
+            print(f"Embedding paused: {e}. Proceeding with {len(cache)} cached chunks.")
     else:
         print(f"All {len(chunks)} chunks loaded from cache!")
+
+    # Gán lại embedding từ cache cho tất cả chunks nếu có
+    for chunk in chunks:
+        h = hashlib.sha256(chunk["content"].encode("utf-8")).hexdigest()
+        if h in cache and "embedding" not in chunk:
+            chunk["embedding"] = cache[h]
 
     return chunks
 
@@ -269,9 +278,10 @@ def run_pipeline() -> None:
     chunks = chunk_documents(documents)
     print(f"Created {len(chunks)} chunks")
     embedded_chunks = embed_chunks(chunks)
-    print(f"Generated embeddings for {len(embedded_chunks)} chunks")
-    index_to_vectorstore(embedded_chunks)
-    print(f"Successfully indexed {len(embedded_chunks)} chunks to ChromaDB")
+    valid_chunks = [c for c in embedded_chunks if "embedding" in c and c["embedding"]]
+    print(f"Indexing {len(valid_chunks)} chunks to ChromaDB...")
+    index_to_vectorstore(valid_chunks)
+    print(f"Successfully indexed {len(valid_chunks)} chunks to ChromaDB")
 
 
 if __name__ == "__main__":
