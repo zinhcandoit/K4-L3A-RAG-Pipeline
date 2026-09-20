@@ -1,0 +1,41 @@
+# Hướng dẫn hộ kinh doanh sử dụng hóa đơn điện tử trong kê khai thuế
+
+**Source:** https://xaydungchinhsach.chinhphu.vn/huong-dan-ho-kinh-doanh-su-dung-hoa-don-dien-tu-trong-ke-khai-thue-119260323165559066.htm
+
+**Crawled:** 2026-09-20T15:22:10
+
+**Published:** 2026-04-01T09:19:00+07:00
+
+---
+
+> Cục thuế hướng dẫn hộ kinh doanh sử dụng hóa đơn điện tử trong kê khai thuế.
+
+Cục Thuế hướng dẫn hộ kinh doanh sử dụng hóa đơn điện tử trong kê khai thuế.
+
+## Hướng dẫn xuất hóa đơn cho cá nhân kinh doanh có doanh thu trên 1 tỷ/ năm
+
+Cá nhân kinh doanh bán hàng online, đóng thuế từ 2025. Doanh thu năm là 1,5 tỷ. Trường hợp này có phải đăng kí lên hộ kinh doanh và xuất hóa đơn hay không?
+
+### Doanh thu từ 1 tỷ đồng/ năm phải đăng ký hộ kinh doanh và xuất hóa đơn điện tử
+
+Đối với trường hợp cá nhân có doanh thu năm từ hoạt động kinh doanh từ 1 tỷ đồng trở lên có thể đăng ký hộ kinh doanh, sử dụng hóa đơn điện tử theo quy định tại khoản 5 điều 8 Nghị định 68/2026/NĐ-CP.
+
+## Hộ kinh doanh, cá nhân kinh doanh có doanh thu 1 tỷ - dưới 3 tỷ sử dụng hóa đơn điện tử thế nào?
+
+Hộ kinh doanh có doanh thu năm 1 tỷ đến dưới 3 tỷ bắt buộc xuất hoá đơn điện tử. Vậy bắt buộc phải có hoá đơn đầu vào đúng không?
+
+### Hướng dẫn hộ kinh doanh có doanh thu từ 1 tỷ đến dưới 3 tỷ sử dụng hóa đơn điện tử, kê khai thuế
+
+Trường hợp hộ kinh doanh có doanh thu từ 01 tỷ đến dưới 03 tỷ đồng thì thuộc đối tượng sử dụng hóa đơn điện tử theo quy định tại khoản 5 điều 8 Nghị định 68/2026/NĐ-CP.
+
+Với trường hợp không đủ hóa đơn, chứng từ đầu vào thì áp dụng phương pháp tính thuế theo **thuế suất x doanh thu.**
+
+## Doanh thu dưới 500 triệu không được xuất hóa đơn điện tử
+
+Theo quy định hiện hành, hộ kinh doanh có doanh thu dưới 500 triệu không thuộc đối tượng đăng ký sử dụng hóa đơn điện tử.
+
+Hộ kinh doanh có doanh thu năm từ 500 triệu trở lên khuyến khích có thể sử dụng hoá đơn điện tử.
+
+Hộ kinh doanh có doanh thu năm từ 1 tỷ đồng trở lên bắt buộc phải sử dụng hoá đơn điện tử.
+
+Trường hợp hộ kinh doanh mới thành lập hoặc dự kiến doanh thu có thể vượt ngưỡng 500 triệu đồng, người nộp thuế có thể chủ động đăng ký với cơ quan thuế để sử dụng hóa đơn điện tử theo từng lần phát sinh. Qua đó hộ kinh doanh vừa đáp ứng nhu cầu giao dịch, vừa đảm bảo tuân thủ đúng quy định pháp luật./.
