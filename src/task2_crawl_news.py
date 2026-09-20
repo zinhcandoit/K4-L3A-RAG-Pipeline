@@ -21,24 +21,33 @@ from pathlib import Path
 DATA_DIR = Path(__file__).parent.parent / "data" / "landing" / "news"
 
 ARTICLE_URLS = [
-    # TODO: Thêm ít nhất 5 public URL.
+    # Luật Thuế thu nhập doanh nghiệp
+    "https://baochinhphu.vn/de-xuat-quy-dinh-moi-ve-uu-dai-thue-thu-nhap-doanh-nghiep-102260904162828502.htm",
+    # Luật Giao dịch điện tử
+    "https://baochinhphu.vn/ke-hoach-trien-khai-thi-hanh-luat-giao-dich-dien-tu-102231013205019682.htm",
+    # Luật Doanh nghiệp
+    "https://baochinhphu.vn/chu-tich-kiem-tong-giam-doc-co-duoc-lam-nguoi-dai-dien-theo-phap-luat-10226052207284733.htm",
+    # Luật Thuế giá trị gia tăng
+    "https://baochinhphu.vn/giam-thue-gia-tri-gia-tang-tu-01-7-2025-den-het-31-12-2026-10225070118590677.htm",
+    # Luật Chứng khoán
+    "https://tapchitaichinh.vn/hoan-thien-hon-nua-khung-phap-ly-cho-nha-dau-tu-nuoc-ngoai-tren-thi-truong-chung-khoan.html",
 ]
 
 
 async def crawl_article(url: str) -> dict:
     # TODO: Implement crawling logic.
     #
-    # from datetime import datetime
-    # from crawl4ai import AsyncWebCrawler
-    #
-    # async with AsyncWebCrawler() as crawler:
-    #     result = await crawler.arun(url=url)
-    #     return {
-    #         "url": url,
-    #         "title": result.metadata.get("title", "Unknown"),
-    #         "date_crawled": datetime.now().isoformat(),
-    #         "content_markdown": result.markdown,
-    #     }
+    from datetime import datetime
+    from crawl4ai import AsyncWebCrawler
+    
+    async with AsyncWebCrawler() as crawler:
+        result = await crawler.arun(url=url)
+        return {
+            "url": url,
+            "title": result.metadata.get("title", "Unknown"),
+            "date_crawled": datetime.now().isoformat(),
+            "content_markdown": result.markdown,
+        }
     raise NotImplementedError("Implement crawl_article")
 
 
