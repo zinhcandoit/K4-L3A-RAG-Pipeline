@@ -26,7 +26,7 @@ CHUNKING_METHOD = "recursive"
 
 EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", "sentence_transformers")
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-m3")
-EMBEDDING_DIM = 1536
+EMBEDDING_DIM = 1024
 
 COLLECTION_NAME = "rag_documents"
 

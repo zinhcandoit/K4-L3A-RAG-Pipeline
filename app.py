@@ -12,6 +12,23 @@ st.set_page_config(
     layout="wide",
 )
 
+
+@st.cache_resource(show_spinner="⏳ Đang khởi tạo Embedding Model & BM25 Index vào RAM (chỉ chạy 1 lần duy nhất)...")
+def load_cached_resources():
+    """Giữ cố định Embedding Model và BM25 Index trong RAM của tiến trình Streamlit server."""
+    from src.task4_chunking_indexing import get_embedding_model
+    from src.task6_lexical_search import _ensure_corpus
+
+    # 1. Nạp sẵn Embedding Model vào RAM
+    embed_model = get_embedding_model()
+    # 2. Nạp sẵn BM25 Index từ file nhị phân .pkl vào RAM
+    _ensure_corpus()
+    return embed_model
+
+
+# Kích hoạt cache resource ngay khi khởi động
+load_cached_resources()
+
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
