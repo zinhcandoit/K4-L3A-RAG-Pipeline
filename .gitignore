@@ -51,7 +51,9 @@ pageindex_pdfs/
 # IDE
 .vscode/
 .idea/
+.agents/
 
 # OS
 .DS_Store
 Thumbs.db
+uv.lock
