@@ -11,19 +11,23 @@
 QUỐC HỘI
 --------
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ab64646c816d73929690c473ca4b1c2374c40982
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Độc lập - Tự do - Hạnh phúc
 ---------------
 
 Luật số: 45/2024/QH15
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ab64646c816d73929690c473ca4b1c2374c40982
 Hà Nội, ngày 23 tháng 11 năm 2024
-
- 
 
 LUẬT
 
@@ -93,9 +97,9 @@ Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
 
 21. Tu bổ di tích là hoạt động nhằm tu sửa, gia cố, tôn tạo nhưng không làm ảnh hưởng đến yếu tố gốc cấu thành di tích lịch sử - văn hóa, danh lam thắng cảnh.
 
-22. Tôn tạo di tích là hoạt động nhằm tăng cường khả năng sử dụng, khai thác và phát huy giá trị nhưng không làm ảnh hưởng đến yếu tố gốc cấu thành di tích, cảnh quan văn hóa của di tích lịch sử - văn hóa, danh lam thắng cảnh.
+22. Tôn tạo di tích là hoạt động nhằm tăng cường khả năng sử dụng, khai thác và phát huy giá trị nhưng không làm ảnh hưởng đến yếu tố gốc cấu thành di tích, cảnh quan văn hóa của di tích lịch sử - văn hóa, danh lam thắng cảnh.
 
-23. Tu sửa cấp thiết di tích là hoạt động sửa chữa hoặc chống đỡ, gia cố, gia cường tạm thời để ngăn chặn di tích khỏi bị sập đổ, hủy hoại nhưng không được tháo rời toàn bộ cấu kiện, thành phần kiến trúc của di tích lịch sử - văn hóa, danh lam thắng cảnh.
+23. Tu sửa cấp thiết di tích là hoạt động sửa chữa hoặc chống đỡ, gia cố, gia cường tạm thời để ngăn chặn di tích khỏi bị sập đổ, hủy hoại nhưng không được tháo rời toàn bộ cấu kiện, thành phần kiến trúc của di tích lịch sử - văn hóa, danh lam thắng cảnh.
 
 24. Công trình kinh tế - xã hội là công trình được thực hiện theo chiến lược, quy hoạch, kế hoạch phát triển kinh tế - xã hội của quốc gia, vùng, địa phương.
 
@@ -245,7 +249,7 @@ d) Thông báo kịp thời cho chủ sở hữu hoặc cơ quan nhà nước c�
 
 Điều 7. Chính sách của Nhà nước về di sản văn hóa
 
-1. Nhà nước giữ vai trò chủ đạo trong bảo đảm và phát triển hoạt động bảo vệ và phát huy giá trị di sản văn hóa; huy động nguồn lực xã hội cho hoạt động bảo vệ và phát huy giá trị di sản văn hóa của vùng, miền, của đồng bào dân tộc.
+1. Nhà nước giữ vai trò chủ đạo trong bảo đảm và phát triển hoạt động bảo vệ và phát huy giá trị di sản văn hóa; huy động nguồn lực xã hội cho hoạt động bảo vệ và phát huy giá trị di sản văn hóa của vùng, miền, của đồng bào dân tộc.
 
 2. Bảo vệ quyền và lợi ích hợp pháp của chủ sở hữu di sản văn hóa.
 
@@ -255,17 +259,17 @@ a) Bảo vệ và phát huy giá trị di sản văn hóa đã được UNESCO g
 
 b) Bảo vệ và phát huy giá trị tiếng nói, chữ viết của các dân tộc Việt Nam; các biểu đạt và truyền thống truyền khẩu; nghệ thuật trình diễn dân gian; kiến trúc truyền thống; nghề thủ công truyền thống; tri thức, kinh nghiệm dân gian về phòng bệnh, chữa bệnh và tri thức dân gian khác; ẩm thực, trang phục, lễ hội truyền thống;
 
-c) Bảo vệ và phát huy giá trị di sản văn hóa vùng đồng bào dân tộc thiểu số và miền núi, biên giới, hải đảo, đặc biệt ưu tiên bảo vệ, phát huy giá trị di sản văn hóa các dân tộc thiểu số rất ít người và dân tộc thiểu số có nguy cơ mai một giá trị văn hóa tộc người;
+c) Bảo vệ và phát huy giá trị di sản văn hóa vùng đồng bào dân tộc thiểu số và miền núi, biên giới, hải đảo, đặc biệt ưu tiên bảo vệ, phát huy giá trị di sản văn hóa các dân tộc thiểu số rất ít người và dân tộc thiểu số có nguy cơ mai một giá trị văn hóa tộc người;
 
 d) Bảo vệ và phát huy giá trị di tích quốc gia đặc biệt, di tích lịch sử - văn hóa thuộc sở hữu toàn dân xuống cấp nghiêm trọng; bảo tàng công lập có vai trò quan trọng; bảo vật quốc gia; di sản văn hóa phi vật thể trong Danh mục quốc gia về di sản văn hóa phi vật thể; di sản tư liệu trong Danh mục quốc gia về di sản tư liệu; di sản văn hóa phi vật thể có nguy cơ mai một, thất truyền.
 
 Chính phủ quy định chi tiết bảo tàng công lập có vai trò quan trọng quy định tại điểm này;
 
-đ) Nghiên cứu, ứng dụng thành tựu khoa học, công nghệ tiên tiến, số hóa di sản văn hóa, chuyển đổi số trong hoạt động bảo vệ và phát huy giá trị di sản văn hóa.
+đ) Nghiên cứu, ứng dụng thành tựu khoa học, công nghệ tiên tiến, số hóa di sản văn hóa, chuyển đổi số trong hoạt động bảo vệ và phát huy giá trị di sản văn hóa.
 
 4. Tôn vinh và có chính sách đãi ngộ đối với nghệ nhân có tài năng xuất sắc, nghệ nhân có công lao bảo vệ, phát huy giá trị di sản văn hóa phi vật thể, đặc biệt là nghệ nhân người dân tộc thiểu số, nghệ nhân sinh sống ở miền núi, biên giới, hải đảo, nghệ nhân là người khuyết tật, người thuộc hộ nghèo, hộ cận nghèo.
 
-5. Hỗ trợ đào tạo, bồi dưỡng chuyên môn, nghiệp vụ, nâng cao năng lực, kỹ thuật đối với nhân lực tham gia bảo vệ và phát huy giá trị di sản văn hóa, đặc biệt đối với nhân lực vùng đồng bào dân tộc thiểu số, nhân lực sinh sống ở miền núi, biên giới, hải đảo.
+5. Hỗ trợ đào tạo, bồi dưỡng chuyên môn, nghiệp vụ, nâng cao năng lực, kỹ thuật đối với nhân lực tham gia bảo vệ và phát huy giá trị di sản văn hóa, đặc biệt đối với nhân lực vùng đồng bào dân tộc thiểu số, nhân lực sinh sống ở miền núi, biên giới, hải đảo.
 
 6. Hỗ trợ, tạo điều kiện thuận lợi cho tổ chức, cá nhân viện trợ, tài trợ, hỗ trợ, tặng cho, đầu tư kinh phí, nhân lực, cơ sở vật chất cho hoạt động bảo vệ, phát huy giá trị di sản văn hóa và Quỹ bảo tồn di sản văn hóa do Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương (sau đây gọi là Chủ tịch Ủy ban nhân dân cấp tỉnh) quyết định thành lập.
 
@@ -337,7 +341,7 @@ Di sản văn hóa phi vật thể bao gồm các loại hình sau đây:
 
 Điều 12. Danh mục, danh sách và tiêu chí ghi danh, ghi danh bổ sung về di sản văn hóa phi vật thể
 
-1. Di sản văn hóa phi vật thể được ghi danh, ghi danh bổ sung vào danh mục, danh sách sau đây:
+1. Di sản văn hóa phi vật thể được ghi danh, ghi danh bổ sung vào danh mục, danh sách sau đây:
 
 a) Danh mục quốc gia về di sản văn hóa phi vật thể;
 
@@ -361,7 +365,7 @@ a) Là di sản văn hóa phi vật thể trong Danh mục quốc gia về di s�
 
 b) Đáp ứng tiêu chí ghi danh theo quy định, hướng dẫn của UNESCO.
 
-Điều 13. Ghi danh, ghi danh bổ sung và hủy bỏ ghi danh di sản văn hóa phi vật thể 
+Điều 13. Ghi danh, ghi danh bổ sung và hủy bỏ ghi danh di sản văn hóa phi vật thể
 
 1. Việc ghi danh, ghi danh bổ sung vào Danh mục quốc gia về di sản văn hóa phi vật thể được quy định như sau:
 
@@ -539,11 +543,11 @@ b) Công trình xây dựng, địa điểm gắn với thân thế và sự ngh
 
 c) Công trình xây dựng, địa điểm gắn với lịch sử phát triển công nghiệp, đô thị, nông thôn có ảnh hưởng tích cực đến sự phát triển của quốc gia hoặc địa phương trong một hoặc nhiều giai đoạn lịch sử.
 
-2. Di tích kiến trúc, nghệ thuật phải đáp ứng tiêu chí là công trình kiến trúc, nghệ thuật, quần thể kiến trúc đô thị, nông thôn, địa điểm cư trú, khu vực đô thị và nông thôn, công trình công nghiệp chứa đựng công trình kiến trúc và không gian lịch sử, văn hóa có giá trị tiêu biểu cho một hoặc nhiều giai đoạn phát triển của lịch sử, kiến trúc, nghệ thuật.
+2. Di tích kiến trúc, nghệ thuật phải đáp ứng tiêu chí là công trình kiến trúc, nghệ thuật, quần thể kiến trúc đô thị, nông thôn, địa điểm cư trú, khu vực đô thị và nông thôn, công trình công nghiệp chứa đựng công trình kiến trúc và không gian lịch sử, văn hóa có giá trị tiêu biểu cho một hoặc nhiều giai đoạn phát triển của lịch sử, kiến trúc, nghệ thuật.
 
-3. Di tích khảo cổ phải đáp ứng tiêu chí là địa điểm phát hiện dấu tích liên quan đến hoạt động của con người, có tầng văn hóa chứa đựng di tích, di vật phản ánh lịch sử văn hóa, con người, có giá trị tiêu biểu cho một hoặc nhiều giai đoạn lịch sử.
+3. Di tích khảo cổ phải đáp ứng tiêu chí là địa điểm phát hiện dấu tích liên quan đến hoạt động của con người, có tầng văn hóa chứa đựng di tích, di vật phản ánh lịch sử văn hóa, con người, có giá trị tiêu biểu cho một hoặc nhiều giai đoạn lịch sử.
 
-4. Danh lam thắng cảnh phải đáp ứng một trong các tiêu chí sau đây:
+4. Danh lam thắng cảnh phải đáp ứng một trong các tiêu chí sau đây:
 
 a) Cảnh quan thiên nhiên có giá trị lịch sử, khoa học, thẩm mỹ tiêu biểu;
 
@@ -689,7 +693,7 @@ b) Cột mốc phải được làm bằng chất liệu bền vững và đặt
 
 a) Di sản thế giới có khu vực di sản thế giới và vùng đệm của khu vực di sản thế giới được xác định theo quy định, hướng dẫn của UNESCO;
 
-b) Khu vực di sản thế giới là vùng chứa đựng các yếu tố gốc tạo nên giá trị nổi bật toàn cầu của di sản thế giới; được bảo vệ như khu vực bảo vệ I của di tích;
+b) Khu vực di sản thế giới là vùng chứa đựng các yếu tố gốc tạo nên giá trị nổi bật toàn cầu của di sản thế giới; được bảo vệ như khu vực bảo vệ I của di tích;
 
 c) Vùng đệm của khu vực di sản thế giới là vùng bao quanh khu vực di sản thế giới, là một phần hoặc góp phần tạo nên giá trị và đặc điểm riêng biệt của di sản thế giới có tác dụng tạo thêm một lớp bảo vệ cho di sản thế giới; được bảo vệ như khu vực bảo vệ II của di tích;
 
@@ -699,9 +703,9 @@ d) Khu vực di sản thế giới, vùng đệm của khu vực di sản thế 
 
 a) Khu vực bảo vệ I của di tích chỉ được điều chỉnh khi phương án điều chỉnh bảo đảm bảo tồn nguyên vẹn yếu tố gốc cấu thành di tích, bảo đảm thực hiện theo nguyên tắc quy định tại khoản 2 Điều này;
 
- b) Khu vực bảo vệ II của di tích chỉ được điều chỉnh khi phương án điều chỉnh bảo đảm ngăn chặn được các yếu tố có thể tác động, làm ảnh hưởng tiêu cực đến yếu tố gốc cấu thành di tích, bảo vệ được cảnh quan văn hóa của di tích, bảo đảm thực hiện theo nguyên tắc quy định tại khoản 3 Điều này;
+ b) Khu vực bảo vệ II của di tích chỉ được điều chỉnh khi phương án điều chỉnh bảo đảm ngăn chặn được các yếu tố có thể tác động, làm ảnh hưởng tiêu cực đến yếu tố gốc cấu thành di tích, bảo vệ được cảnh quan văn hóa của di tích, bảo đảm thực hiện theo nguyên tắc quy định tại khoản 3 Điều này;
 
-c) Việc điều chỉnh khu vực bảo vệ di tích quy định tại điểm a và điểm b khoản này được thực hiện như quy định tại khoản 5 và khoản 6 Điều này.
+c) Việc điều chỉnh khu vực bảo vệ di tích quy định tại điểm a và điểm b khoản này được thực hiện như quy định tại khoản 5 và khoản 6 Điều này.
 
 10. Việc điều chỉnh mở rộng hoặc thu hẹp ranh giới khu vực di sản thế giới và vùng đệm của khu vực di sản thế giới thực hiện theo quy định, hướng dẫn của UNESCO, bảo đảm không được làm thay đổi tiêu chí tạo nên giá trị nổi bật toàn cầu của di sản thế giới và phải lập thành hồ sơ; trường hợp điều chỉnh lớn ranh giới khu vực di sản thế giới hoặc vùng đệm của khu vực di sản thế giới thì phải lập thành hồ sơ đề cử mới.
 
@@ -761,7 +765,7 @@ a) Trường hợp sửa chữa, cải tạo, xây dựng lại nhà ở riêng 
 
 b) Việc sửa chữa, cải tạo, xây dựng nhà ở riêng lẻ trong khu vực bảo vệ di tích, di sản thế giới không thuộc quy định tại điểm a khoản này thực hiện theo quy định của pháp luật về xây dựng và chỉ được triển khai thực hiện sau khi có ý kiến đồng ý bằng văn bản của cơ quan chuyên môn về văn hóa cấp tỉnh.
 
- 5. Việc sửa chữa, cải tạo, xây dựng nhà ở riêng lẻ quy định tại điểm b khoản 4 Điều này được quy định như sau:
+ 5. Việc sửa chữa, cải tạo, xây dựng nhà ở riêng lẻ quy định tại điểm b khoản 4 Điều này được quy định như sau:
 
 a) Việc sửa chữa, cải tạo, xây dựng nhà ở riêng lẻ không thuộc trường hợp cấp giấy phép xây dựng theo quy định của pháp luật về xây dựng, chủ đầu tư có trách nhiệm gửi hồ sơ theo quy định của Luật này đến cơ quan chuyên môn về văn hoá cấp tỉnh để xin ý kiến.
 
@@ -947,7 +951,7 @@ d) Việc tu sửa cấp thiết di tích có sự giám sát của cơ quan chu
 
 Khi nhận được thông báo, cơ quan quản lý nhà nước về văn hóa trên địa bàn phải có biện pháp xử lý kịp thời để bảo vệ địa điểm, khu vực khảo cổ, di tích, di vật; trường hợp vượt quá thẩm quyền xử lý hoặc xét thấy cần ngừng hoặc ngừng một phần hoạt động của dự án đầu tư xây dựng, xây dựng công trình, phải báo cáo cơ quan cấp trên có thẩm quyền xem xét, giải quyết.
 
-4. Trong trường hợp cần tổ chức thăm dò, khai quật khảo cổ tại khu vực, địa điểm xây dựng công trình thì kinh phí thăm dò, khai quật khảo cổ được quy định như sau:
+4. Trong trường hợp cần tổ chức thăm dò, khai quật khảo cổ tại khu vực, địa điểm xây dựng công trình thì kinh phí thăm dò, khai quật khảo cổ được quy định như sau:
 
 a) Đối với công trình xây dựng thực hiện theo pháp luật về đầu tư công thì kinh phí thăm dò, khai quật khảo cổ được tính trong tổng vốn đầu tư của công trình đó;
 
@@ -1247,7 +1251,7 @@ d) Có quyết định của Chủ tịch Ủy ban nhân dân cấp tỉnh, Bộ
 
 5. Trường hợp di vật, cổ vật, bảo vật quốc gia được Bộ Văn hóa, Thể thao và Du lịch xác định, đề xuất phương án thu hồi, mua ở nước ngoài về nước, Thủ tướng Chính phủ quyết định phương án thu hồi hoặc dùng ngân sách nhà nước mua, đưa về Việt Nam.
 
- 6. Di vật, cổ vật, bảo vật quốc gia được tổ chức, cá nhân mua, đưa về Việt Nam để trưng bày, bảo vệ và phát huy giá trị trong bảo tàng, nhà truyền thống, nhà lưu niệm, nhà trưng bày, được cơ quan nhà nước có thẩm quyền xác nhận không vì mục đích lợi nhuận hoặc tặng cho, chuyển giao cho Nhà nước, được hưởng chế độ ưu đãi về thuế nhập khẩu, thuế giá trị gia tăng và chi phí thực hiện được tính vào khoản chi phí hợp lệ khi xác định thu nhập chịu thuế, các ưu đãi về thuế, phí liên quan khác theo quy định của pháp luật về thuế, phí và lệ phí.
+ 6. Di vật, cổ vật, bảo vật quốc gia được tổ chức, cá nhân mua, đưa về Việt Nam để trưng bày, bảo vệ và phát huy giá trị trong bảo tàng, nhà truyền thống, nhà lưu niệm, nhà trưng bày, được cơ quan nhà nước có thẩm quyền xác nhận không vì mục đích lợi nhuận hoặc tặng cho, chuyển giao cho Nhà nước, được hưởng chế độ ưu đãi về thuế nhập khẩu, thuế giá trị gia tăng và chi phí thực hiện được tính vào khoản chi phí hợp lệ khi xác định thu nhập chịu thuế, các ưu đãi về thuế, phí liên quan khác theo quy định của pháp luật về thuế, phí và lệ phí.
 
 7. Chính phủ quy định trình tự, thủ tục, hồ sơ cấp giấy phép nhập khẩu di vật, cổ vật, bảo vật quốc gia có nguồn gốc Việt Nam ở nước ngoài về nước tại khoản 2 Điều này và quy định chi tiết khoản 6 Điều này.
 
@@ -1883,7 +1887,7 @@ h) Hỗ trợ nghệ nhân, chủ thể di sản văn hóa phi vật thể, ngư
 
 i) Đào tạo, bồi dưỡng, tập huấn nguồn nhân lực; nghiên cứu khoa học, hợp tác quốc tế về bảo vệ và phát huy giá trị di sản văn hóa;
 
-k) Tuyên truyền, giới thiệu, quảng bá về di sản văn hóa; 
+k) Tuyên truyền, giới thiệu, quảng bá về di sản văn hóa;
 
 l) Dự án đầu tư ứng dụng công nghệ thông tin, chuyển đổi số; bảo dưỡng, duy trì, nâng cấp, mở rộng hệ thống ứng dụng công nghệ thông tin, chuyển đổi số trong hoạt động bảo vệ và phát huy giá trị di sản văn hóa;
 
@@ -2103,20 +2107,13 @@ Bổ sung điểm h vào sau điểm g khoản 3 Điều 49 của Luật Xây d�
 
 Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 8 thông qua ngày 23 tháng 11 năm 2024./.
 
- 
-
- 
-
- 
-
- 
-
- 
-
 Epas: 114331
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ab64646c816d73929690c473ca4b1c2374c40982
 CHỦ TỊCH QUỐC HỘI
 
 Trần Thanh Mẫn

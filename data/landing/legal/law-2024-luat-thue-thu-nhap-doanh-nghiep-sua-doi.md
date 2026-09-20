@@ -11,7 +11,7 @@
 QUỐC HỘI
 --------
 
-
+	
 
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Độc lập - Tự do - Hạnh phúc
@@ -19,11 +19,9 @@ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 
 Luật số: 57/2024/QH15
 
-
+	
 
 Hà Nội, ngày 29 tháng 11 năm 2024
-
- 
 
 LUẬT
 
@@ -83,7 +81,7 @@ b) Sửa đổi, bổ sung các điểm b, c và d khoản 3 như sau:
 
 “b) Cơ quan lập quy hoạch lựa chọn tổ chức tư vấn lập quy hoạch; chủ trì, phối hợp với các Bộ, cơ quan ngang Bộ và địa phương liên quan nghiên cứu, phân tích, đánh giá, dự báo về các yếu tố, điều kiện, nguồn lực, bối cảnh phát triển, đánh giá thực trạng phát triển kinh tế - xã hội của vùng, đề xuất các quan điểm, mục tiêu, nội dung quy hoạch; gửi các Bộ, cơ quan ngang Bộ liên quan và địa phương trong vùng;
 
- c) Các Bộ, cơ quan ngang Bộ liên quan và địa phương trong vùng tham gia ý kiến, đề xuất các nội dung quy hoạch thuộc phạm vi quản lý, gửi cơ quan lập quy hoạch;
+ c) Các Bộ, cơ quan ngang Bộ liên quan và địa phương trong vùng tham gia ý kiến, đề xuất các nội dung quy hoạch thuộc phạm vi quản lý, gửi cơ quan lập quy hoạch;
 
 d) Cơ quan lập quy hoạch chủ trì, phối hợp với các Bộ, cơ quan ngang Bộ và địa phương liên quan xem xét, xử lý các vấn đề liên vùng, liên tỉnh nhằm bảo đảm tính thống nhất, đồng bộ và hiệu quả của quy hoạch;”;
 
@@ -119,7 +117,7 @@ c) Sửa đổi, bổ sung đoạn mở đầu khoản 6 như sau:
 
 d) Sửa đổi, bổ sung điểm d khoản 6 như sau:
 
- “d) Danh mục dự kiến các dự án quan trọng quốc gia, dự án ưu tiên bảo tồn đa dạng sinh học;”.
+ “d) Danh mục dự kiến các dự án quan trọng quốc gia, dự án ưu tiên bảo tồn đa dạng sinh học;”.
 
 9. Sửa đổi, bổ sung điểm g khoản 2 Điều 26 như sau:
 
@@ -241,7 +239,7 @@ a) Sửa đổi, bổ sung số thứ tự 26 như sau:
 
 26.
 
-
+	
 
 Quy hoạch tổng thể hệ thống đô thị và nông thôn
 
@@ -249,19 +247,19 @@ b) Sửa đổi, bổ sung các số thứ tự 29, 32 và 33 như sau:
 
 29.
 
-
+	
 
 Quy hoạch điều tra cơ bản địa chất, khoáng sản
 
 32.
 
-
+	
 
 Quy hoạch khoáng sản nhóm I
 
 33.
 
-
+	
 
 Quy hoạch khoáng sản nhóm II
 
@@ -269,11 +267,11 @@ Quy hoạch khoáng sản nhóm II
 
 11.
 
-
+	
 
 Quy hoạch đô thị và nông thôn
 
-
+	
 
 Luật Quy hoạch đô thị và nông thôn số 47/2024/QH15
 
@@ -299,7 +297,7 @@ k) Kinh doanh xuất khẩu di vật, cổ vật.”.
 
 2. Chính phủ quy định chi tiết mô hình hoạt động, địa vị pháp lý, nguồn ngân sách cấp hằng năm và bổ sung cho Quỹ, hình thức hỗ trợ, cơ chế bồi hoàn hỗ trợ và các chính sách đặc thù khác của Quỹ, báo cáo Ủy ban Thường vụ Quốc hội cho ý kiến trước khi ban hành.”.
 
-4. Sửa đổi, bổ sung, bãi bỏ một số điểm của khoản 1 Điều 31 như sau:
+4. Sửa đổi, bổ sung, bãi bỏ một số điểm của khoản 1 Điều 31 như sau:
 
 a) Sửa đổi, bổ sung điểm d như sau:
 
@@ -309,7 +307,7 @@ b) Sửa đổi, bổ sung điểm g1 như sau:
 
 “g1) Dự án đầu tư phù hợp với quy định của pháp luật về di sản văn hóa không phân biệt quy mô diện tích đất, dân số thuộc phạm vi khu vực bảo vệ I của di tích được cấp có thẩm quyền công nhận là di tích quốc gia đặc biệt thuộc Danh mục di sản thế giới.”;
 
-c) Bãi bỏ điểm h.
+c) Bãi bỏ điểm h.
 
 5. Sửa đổi, bổ sung một số điểm của khoản 1 Điều 32 như sau:
 
@@ -395,7 +393,7 @@ a) Sửa đổi, bổ sung số thứ tự 50 như sau:
 
 50
 
-
+	
 
 Hoạt động phát điện, truyền tải điện, phân phối điện, bán buôn điện, bán lẻ điện
 
@@ -403,31 +401,31 @@ b) Sửa đổi, bổ sung các số thứ tự 115, 193, 194, 201 và 202 như 
 
 115
 
-
+	
 
 Kinh doanh dịch vụ tư vấn lập quy hoạch đô thị và nông thôn
 
 193
 
-
+	
 
 Kinh doanh dịch vụ giám định di vật, cổ vật
 
 194
 
-
+	
 
 Kinh doanh dịch vụ lập quy hoạch, dự án, thiết kế, tổ chức thi công, tư vấn giám sát thi công dự án bảo quản, tu bổ và phục hồi di tích
 
 201
 
-
+	
 
 Kinh doanh di vật, cổ vật, trừ kinh doanh xuất khẩu di vật, cổ vật; kinh doanh dịch vụ bảo quản, phục chế, số hóa, xây dựng cơ sở dữ liệu di vật, cổ vật
 
 202
 
-
+	
 
 Nhập khẩu hàng hóa văn hóa thuộc diện quản lý chuyên ngành của Bộ Văn hóa, Thể thao và Du lịch
 
@@ -435,37 +433,37 @@ c) Bổ sung các số thứ tự 90a, 90b và 90c vào sau số thứ tự 90; 
 
 90a
 
-
+	
 
 Nhập khẩu, tạm nhập tái xuất, tạm xuất tái nhập tàu bay không người lái, phương tiện bay khác, động cơ tàu bay, cánh quạt tàu bay và trang bị, thiết bị của tàu bay không người lái, phương tiện bay khác
 
 90b
 
-
+	
 
 Kinh doanh tàu bay không người lái, phương tiện bay khác, động cơ tàu bay, cánh quạt tàu bay và trang bị, thiết bị của tàu bay không người lái, phương tiện bay khác
 
 90c
 
-
+	
 
 Nghiên cứu chế tạo, thử nghiệm, sửa chữa, bảo dưỡng tàu bay không người lái, phương tiện bay khác, động cơ tàu bay, cánh quạt tàu bay và trang bị, thiết bị của tàu bay không người lái, phương tiện bay khác
 
 230
 
-
+	
 
 Kinh doanh sản phẩm, dịch vụ trung gian dữ liệu
 
 231
 
-
+	
 
 Kinh doanh sản phẩm, dịch vụ phân tích, tổng hợp dữ liệu
 
 232
 
-
+	
 
 Kinh doanh dịch vụ sàn dữ liệu
 
@@ -709,9 +707,9 @@ b) Tổ chức lập hồ sơ mời thầu trong quá trình chuẩn bị dự �
 
 a) Tiêu chuẩn giá, phí sản phẩm, dịch vụ công;
 
-b) Tiêu chuẩn vốn nhà nước hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng;
+b) Tiêu chuẩn vốn nhà nước hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng;
 
-c) Tiêu chuẩn lợi ích xã hội, lợi ích nhà nước;
+c) Tiêu chuẩn lợi ích xã hội, lợi ích nhà nước;
 
 d) Tiêu chuẩn giá trị thanh toán.”.
 
@@ -833,7 +831,7 @@ c) Dự phòng chung nguồn ngân sách trung ương và dự phòng chung ngu�
 
 Chi phí xử lý cơ chế chia sẻ phần giảm doanh thu quy định tại khoản này phải được quy định tại hợp đồng dự án.
 
- 3a. Đối với dự án do Quốc hội, Thủ tướng Chính phủ, Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác quyết định chủ trương đầu tư, ưu tiên sử dụng ngân sách trung ương để chi trả phần giảm doanh thu. Đối với dự án do Hội đồng nhân dân cấp tỉnh, Ủy ban nhân dân cấp tỉnh quyết định chủ trương đầu tư, ưu tiên sử dụng ngân sách địa phương để chi trả phần giảm doanh thu. Đối với dự án được thực hiện trên địa bàn 02 đơn vị hành chính cấp tỉnh trở lên, Ủy ban nhân dân cấp tỉnh được Thủ tướng Chính phủ giao làm cơ quan có thẩm quyền thống nhất về trách nhiệm của từng địa phương để chi trả phần giảm doanh thu tại quyết định chủ trương đầu tư của dự án.”.
+ 3a. Đối với dự án do Quốc hội, Thủ tướng Chính phủ, Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác quyết định chủ trương đầu tư, ưu tiên sử dụng ngân sách trung ương để chi trả phần giảm doanh thu. Đối với dự án do Hội đồng nhân dân cấp tỉnh, Ủy ban nhân dân cấp tỉnh quyết định chủ trương đầu tư, ưu tiên sử dụng ngân sách địa phương để chi trả phần giảm doanh thu. Đối với dự án được thực hiện trên địa bàn 02 đơn vị hành chính cấp tỉnh trở lên, Ủy ban nhân dân cấp tỉnh được Thủ tướng Chính phủ giao làm cơ quan có thẩm quyền thống nhất về trách nhiệm của từng địa phương để chi trả phần giảm doanh thu tại quyết định chủ trương đầu tư của dự án.”.
 
 20. Sửa đổi, bổ sung Điều 86 như sau:
 
@@ -856,8 +854,6 @@ a) Sửa đổi, bổ sung khoản 4 như sau:
 b) Bãi bỏ điểm d khoản 5.
 
 Điều 4. Sửa đổi, bổ sung một số điều của Luật Đấu thầu
-
- 
 
 1. Sửa đổi, bổ sung một số điểm, khoản của Điều 3 như sau:
 
@@ -1061,13 +1057,13 @@ d) Trường hợp thực hiện nghị quyết của Quốc hội, Ủy ban Th�
 
 2. Quy định chuyển tiếp các quy định sửa đổi, bổ sung Luật Đầu tư như sau:
 
-a) Kể từ ngày Luật này có hiệu lực thi hành, hồ sơ hợp lệ đề nghị chấp thuận, điều chỉnh chủ trương đầu tư dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng khu công nghiệp, khu chế xuất; dự án đầu tư xây dựng mới bến cảng, khu bến cảng có quy mô vốn đầu tư dưới 2.300 tỷ đồng thuộc cảng biển đặc biệt; dự án đầu tư phù hợp với quy định của pháp luật về di sản văn hóa không phân biệt quy mô diện tích đất, dân số thuộc phạm vi khu vực bảo vệ I và II của di tích được cấp có thẩm quyền công nhận là di tích quốc gia, di tích quốc gia đặc biệt, trừ khu vực bảo vệ I của di tích quốc gia đặc biệt thuộc Danh mục di sản thế giới đã tiếp nhận trước ngày Luật này có hiệu lực thi hành nhưng chưa trả kết quả thì được giải quyết như sau:
+a) Kể từ ngày Luật này có hiệu lực thi hành, hồ sơ hợp lệ đề nghị chấp thuận, điều chỉnh chủ trương đầu tư dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng khu công nghiệp, khu chế xuất; dự án đầu tư xây dựng mới bến cảng, khu bến cảng có quy mô vốn đầu tư dưới 2.300 tỷ đồng thuộc cảng biển đặc biệt; dự án đầu tư phù hợp với quy định của pháp luật về di sản văn hóa không phân biệt quy mô diện tích đất, dân số thuộc phạm vi khu vực bảo vệ I và II của di tích được cấp có thẩm quyền công nhận là di tích quốc gia, di tích quốc gia đặc biệt, trừ khu vực bảo vệ I của di tích quốc gia đặc biệt thuộc Danh mục di sản thế giới đã tiếp nhận trước ngày Luật này có hiệu lực thi hành nhưng chưa trả kết quả thì được giải quyết như sau:
 
 a.1) Trường hợp dự án đã được trình Thủ tướng Chính phủ xem xét chấp thuận, điều chỉnh chủ trương đầu tư trước ngày Luật này có hiệu lực thi hành được tiếp tục thực hiện theo quy định của Luật Đầu tư số 61/2020/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 72/2020/QH14, Luật số 03/2022/QH15, Luật số 05/2022/QH15, Luật số 08/2022/QH15, Luật số 09/2022/QH15, Luật số 20/2023/QH15, Luật số 26/2023/QH15, Luật số 27/2023/QH15, Luật số 28/2023/QH15, Luật số 31/2024/QH15, Luật số 33/2024/QH15 và Luật số 43/2024/QH15 (sau đây gọi là Luật số 61/2020/QH14);
 
-Đối với dự án chưa đáp ứng yêu cầu, điều kiện để chấp thuận, điều chỉnh chủ trương đầu tư theo quy định của Luật số 61/2020/QH14, Bộ Kế hoạch và Đầu tư chuyển hồ sơ dự án, ý kiến thẩm định và báo cáo thẩm định cho Ủy ban nhân dân cấp tỉnh để xử lý theo thẩm quyền quy định tại Luật này trên cơ sở ý kiến của Thủ tướng Chính phủ;
+Đối với dự án chưa đáp ứng yêu cầu, điều kiện để chấp thuận, điều chỉnh chủ trương đầu tư theo quy định của Luật số 61/2020/QH14, Bộ Kế hoạch và Đầu tư chuyển hồ sơ dự án, ý kiến thẩm định và báo cáo thẩm định cho Ủy ban nhân dân cấp tỉnh để xử lý theo thẩm quyền quy định tại Luật này trên cơ sở ý kiến của Thủ tướng Chính phủ;
 
-a.2) Trường hợp dự án chưa được trình Thủ tướng Chính phủ xem xét chấp thuận, điều chỉnh chủ trương đầu tư trước ngày Luật này có hiệu lực thi hành, Bộ Kế hoạch và Đầu tư chuyển hồ sơ dự án và ý kiến thẩm định dự án (nếu có) cho Ủy ban nhân dân cấp tỉnh để xử lý theo thẩm quyền quy định tại Luật này;
+a.2) Trường hợp dự án chưa được trình Thủ tướng Chính phủ xem xét chấp thuận, điều chỉnh chủ trương đầu tư trước ngày Luật này có hiệu lực thi hành, Bộ Kế hoạch và Đầu tư chuyển hồ sơ dự án và ý kiến thẩm định dự án (nếu có) cho Ủy ban nhân dân cấp tỉnh để xử lý theo thẩm quyền quy định tại Luật này;
 
 a.3) Ủy ban nhân dân cấp tỉnh được tiếp tục sử dụng hồ sơ dự án, ý kiến thẩm định và báo cáo thẩm định để xem xét chấp thuận, điều chỉnh chủ trương đầu tư trong các trường hợp quy định tại tiểu điểm a.1 và tiểu điểm a.2 điểm a khoản này;
 
@@ -1085,7 +1081,7 @@ c.3) Giấy chứng nhận đăng ký đầu tư ghi nhận nội dung dự án 
 
 Nhà đầu tư được triển khai dự án đầu tư theo Giấy chứng nhận đăng ký đầu tư đã được cấp hoặc cấp đổi theo quy định tại tiểu điểm c.2 điểm c khoản này;
 
-d) Đối với dự án được quyết định chủ trương đầu tư, chấp thuận chủ trương đầu tư hoặc chấp thuận đầu tư, cấp Giấy chứng nhận đăng ký đầu tư trước ngày Luật này có hiệu lực thi hành, thì thời hạn 24 tháng để Cơ quan đăng ký đầu tư chấm dứt hoặc chấm dứt một phần hoạt động của dự án đầu tư tại khoản 10 Điều 2 của Luật này được tính từ ngày 15 tháng 01 năm 2025 nếu thời điểm kết thúc tiến độ thực hiện mục tiêu hoạt động chủ yếu của dự án tại văn bản quyết định chủ trương đầu tư, văn bản chấp thuận chủ trương đầu tư, văn bản chấp thuận đầu tư, Giấy chứng nhận đăng ký đầu tư hoặc văn bản điều chỉnh quyết định chủ trương đầu tư, văn bản chấp thuận điều chỉnh chủ trương đầu tư, Giấy chứng nhận đăng ký đầu tư điều chỉnh trước ngày 15 tháng 01 năm 2025.
+d) Đối với dự án được quyết định chủ trương đầu tư, chấp thuận chủ trương đầu tư hoặc chấp thuận đầu tư, cấp Giấy chứng nhận đăng ký đầu tư trước ngày Luật này có hiệu lực thi hành, thì thời hạn 24 tháng để Cơ quan đăng ký đầu tư chấm dứt hoặc chấm dứt một phần hoạt động của dự án đầu tư tại khoản 10 Điều 2 của Luật này được tính từ ngày 15 tháng 01 năm 2025 nếu thời điểm kết thúc tiến độ thực hiện mục tiêu hoạt động chủ yếu của dự án tại văn bản quyết định chủ trương đầu tư, văn bản chấp thuận chủ trương đầu tư, văn bản chấp thuận đầu tư, Giấy chứng nhận đăng ký đầu tư hoặc văn bản điều chỉnh quyết định chủ trương đầu tư, văn bản chấp thuận điều chỉnh chủ trương đầu tư, Giấy chứng nhận đăng ký đầu tư điều chỉnh trước ngày 15 tháng 01 năm 2025.
 
 3. Quy định chuyển tiếp các quy định sửa đổi, bổ sung Luật Đầu tư theo phương thức đối tác công tư như sau:
 
@@ -1103,15 +1099,11 @@ a) Các gói thầu lựa chọn nhà thầu đã phê duyệt và phát hành h
 
 b) Đối với gói thầu đã phê duyệt kế hoạch lựa chọn nhà thầu nhưng đến ngày Luật này có hiệu lực thi hành chưa phát hành hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu mà kế hoạch lựa chọn nhà thầu đã phê duyệt không phù hợp với Luật này thì phê duyệt điều chỉnh kế hoạch lựa chọn nhà thầu để phù hợp với quy định của Luật này.
 
-Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, Kỳ họp thứ 8 thông qua ngày 29 tháng 11 năm 2024.
-
- 
-
- 
+Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, Kỳ họp thứ 8 thông qua ngày 29 tháng 11 năm 2024.
 
 E-pas: 113577
 
-
+	
 
 CHỦ TỊCH QUỐC HỘI
 

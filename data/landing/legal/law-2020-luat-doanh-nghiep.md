@@ -7,7 +7,7 @@
 QUỐC HỘI
 -------
 
-
+	
 
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 Độc lập - Tự do - Hạnh phúc
@@ -15,11 +15,9 @@ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 
 Luật số: 59/2020/QH14
 
-
+	
 
 Hà Nội, ngày 17 tháng 6 năm 2020
-
- 
 
 LUẬT
 
@@ -131,7 +129,7 @@ g) Doanh nghiệp trong đó cá nhân, công ty, tổ chức quy định tại 
 
 33. Vốn có quyền biểu quyết là phần vốn góp hoặc cổ phần, theo đó người sở hữu có quyền biểu quyết về những vấn đề thuộc thẩm quyền quyết định của Hội đồng thành viên hoặc Đại hội đồng cổ đông.
 
-34. Vốn điều lệ là tổng giá trị tài sản do các thành viên công ty, chủ sở hữu công ty đã góp hoặc cam kết góp khi thành lập công ty trách nhiệm hữu hạn, công ty hợp danh; là tổng mệnh giá cổ phần đã bán hoặc được đăng ký mua khi thành lập công ty cổ phần.Bổ sung
+34. Vốn điều lệ là tổng giá trị tài sản do các thành viên công ty, chủ sở hữu công ty đã góp hoặc cam kết góp khi thành lập công ty trách nhiệm hữu hạn, công ty hợp danh; là tổng mệnh giá cổ phần đã bán hoặc được đăng ký mua khi thành lập công ty cổ phần.Bổ sung
 
 Điều 5. Bảo đảm của Nhà nước đối với doanh nghiệp và chủ sở hữu doanh nghiệp
 
@@ -357,7 +355,7 @@ d) Cán bộ lãnh đạo, quản lý nghiệp vụ trong doanh nghiệp nhà n�
 
 e) Người đang bị truy cứu trách nhiệm hình sự, bị tạm giam, đang chấp hành hình phạt tù, đang chấp hành biện pháp xử lý hành chính tại cơ sở cai nghiện bắt buộc, cơ sở giáo dục bắt buộc hoặc đang bị Tòa án cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định; các trường hợp khác theo quy định của Luật Phá sản, Luật Phòng, chống tham nhũng.
 
-Trường hợp Cơ quan đăng ký kinh doanh có yêu cầu, người đăng ký thành lập doanh nghiệp phải nộp Phiếu lý lịch tư pháp cho Cơ quan đăng ký kinh doanh;
+Trường hợp Cơ quan đăng ký kinh doanh có yêu cầu, người đăng ký thành lập doanh nghiệp phải nộp Phiếu lý lịch tư pháp cho Cơ quan đăng ký kinh doanh;
 
 g) Tổ chức là pháp nhân thương mại bị cấm kinh doanh, cấm hoạt động trong một số lĩnh vực nhất định theo quy định của Bộ luật Hình sự.
 
@@ -1061,7 +1059,7 @@ d) Họ, tên, chữ ký của từng thành viên yêu cầu hoặc người đ
 
 7. Trường hợp yêu cầu triệu tập họp Hội đồng thành viên không có đủ nội dung theo quy định tại khoản 6 Điều này thì Chủ tịch Hội đồng thành viên phải thông báo bằng văn bản về việc không triệu tập họp Hội đồng thành viên cho thành viên, nhóm thành viên có liên quan biết trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu. Trong các trường hợp khác, Chủ tịch Hội đồng thành viên phải triệu tập họp Hội đồng thành viên trong thời hạn 15 ngày kể từ ngày nhận được yêu cầu.
 
-8. Trường hợp Chủ tịch Hội đồng thành viên không triệu tập họp Hội đồng thành viên theo quy định tại khoản 7 Điều này thì phải chịu trách nhiệm cá nhân về thiệt hại xảy ra đối với công ty và thành viên công ty có liên quan.Bổ sung
+8. Trường hợp Chủ tịch Hội đồng thành viên không triệu tập họp Hội đồng thành viên theo quy định tại khoản 7 Điều này thì phải chịu trách nhiệm cá nhân về thiệt hại xảy ra đối với công ty và thành viên công ty có liên quan.Bổ sung
 
 Điều 58. Điều kiện và thể thức tiến hành họp Hội đồng thành viên
 
@@ -4035,7 +4033,7 @@ Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Vi�
 
  
 
-
+	
 
 CHỦ TỊCH QUỐC HỘI
 
