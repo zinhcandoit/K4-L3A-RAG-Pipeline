@@ -65,10 +65,10 @@ def _build_langchain_llm():
     kwargs = {
         "model": model_name,
         "api_key": api_key,
-        "temperature": 0.0,
-        "max_tokens": 4096,
+        "temperature": 0.1,
+        "max_tokens": 10000,
         "seed": 42,
-        "request_timeout": 300,
+        "request_timeout": 600,
         "max_retries": 3,
     }
     if base_url:
